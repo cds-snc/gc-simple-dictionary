@@ -285,7 +285,7 @@
 			},
 			fetch: function (text, callback) {
 				var match = text.toLowerCase();
-				callback(data.filter(n => n.label.toLowerCase().startsWith(text)));
+				callback(data.filter(n => n.label.toLowerCase().startsWith(match)));
 			},
 			render: function(item, value) {
 				var itemElement = document.createElement("div");
