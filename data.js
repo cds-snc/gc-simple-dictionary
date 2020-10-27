@@ -22,6 +22,7 @@ var data = [
     { label: 'PSPC', value: 'Public Service Performance Management'},
     { label: 'SA&A', value: 'Security assessment and authorization', explanation: "The structured process through which services are assessed and authorized to operate"},
     { label: 'SC', value: 'Service Canada'},
+    { label: 'SCIF', value: 'Sensitive Compartmented Information Facility', explanation: "pronounced \"skiff\", s an enclosed area within a building that is used to process Sensitive Compartmented Information (SCI) types of classified information."},
     { label: 'SFT', value: 'Speech from the Throne', link:"https://www.canada.ca/en/privy-council/campaigns/speech-throne/info-speech-from-throne.html"},
     { label: 'SOP', value: 'Standard Operating Procedures'},
     { label: 'STT', value: 'Show The Things', explanation: "Bi-Weekly All Staff CDS Showcases"},
