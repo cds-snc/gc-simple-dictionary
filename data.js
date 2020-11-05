@@ -5,6 +5,8 @@ var data = [
     { label: 'CBSO', value: 'Cloud-based Service Owner'},
     { label: 'CCCS', value: 'Canadian Centre for Cyber Security'},
     { label: 'CDS', value: 'Canadian Digital Service', explanation: 'yours truly', link: 'https://digital.canada.ca'},
+    { label: 'Celery', explanation: 'A python library. Celery is an open source asynchronous task queue or job queue which is based on distributed message passing.', link: 'https://docs.celeryproject.org/en/stable/index.html'},
+
     { label: 'CSE', value: 'Communications Security Establishment'},
     { label: 'CSEMP', value: 'Cyber Security Event Management Plan'},
     { label: 'CSP', value: 'Cloud Service Provider'},
