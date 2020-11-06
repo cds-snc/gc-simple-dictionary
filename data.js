@@ -1,5 +1,5 @@
 var data = [
-    { label: 'API', value: 'Application Programming Interface', explnation:"This is a concept in software technology that essentially refers to how multiple applications can interact with and obtain data from one another."},
+    { label: 'API', value: 'Application Programming Interface', explanation:"This is a concept in software technology that essentially refers to how multiple applications can interact with and obtain data from one another."},
     { label: 'ATIP', value: 'Access to Information and Privacy', explanation: 'Canadians can request internal records and communications from the government (i.e. ATIP requests). Recent ones have included records of Slack and email chats around COVID Alert.'},
     { label: 'ATO', value: 'Authority To Operate', explanation: "This is the compliance paperwork that gets filed by software operators within in government. Approvers are often CTOs or CISOs, and they are evaluating risk. However, the paperwork and processes are very burdensome, stem from waterfall days where there were only 1-2 releases a year, and often don't provide the information someone would actually need to measure risk. Streamlining this process is a goal of CDS's. Based on US's NIST 800-53 rev 4."},
     { label: 'ATS', value: 'Applicant Tracking System', explanation: 'We use Lever at CDS'},
@@ -7,22 +7,20 @@ var data = [
     { label: 'CCCS', value: 'Canadian Centre for Cyber Security'},
     { label: 'CDS', value: 'Canadian Digital Service', explanation: 'yours truly', link: 'https://digital.canada.ca'},
     { label: 'Celery', explanation: 'A python library. Celery is an open source asynchronous task queue or job queue which is based on distributed message passing.', link: 'https://docs.celeryproject.org/en/stable/index.html'},
-
     { label: 'CSE', value: 'Communications Security Establishment'},
     { label: 'CSEMP', value: 'Cyber Security Event Management Plan'},
     { label: 'CSP', value: 'Cloud Service Provider'},
     { label: 'ELB', value: 'Elastic Load Balancer', explanation:'an AWS service', link:"https://aws.amazon.com/elasticloadbalancing/"},
     { label: 'ESDC', value: 'Employment and Social Development Canada'},
-    
     { label: 'Float', value: 'Resource Planning & Management Software'},
     { label: 'Form 9200', explanation: "Requisition for Goods and Services and Construction form"},
     { label: 'GC', value: 'Government of Canada'},
     { label: 'GCconnex ', value: 'Online messaging board', explanation:"GCconnex is a professional networking and collaborative workspace for all public servants, allowing them to connect and share information, leveraging the power of networking towards a more effective and efficient public service.",link:"https://gcconnex.gc.ca/login"},
     { label: 'GCKey', value: 'Single Sign On attempt by the Office of the CIO within TBS'},
-    { label: 'GDS', value: 'The Government Digital Service is a unit of the Government of the United Kingdom\'s Cabinet Office tasked with transforming the provision of online public services.'},
+    { label: 'GDS', value: 'The UK Government Digital Service', explanation: 'The Government Digital Service is a unit of the Government of the United Kingdom\'s Cabinet Office tasked with transforming the provision of online public services.'},
     { label: 'HC', value: 'Health Canada'},
-    { label: 'k8s', value: 'Kubernestes', explanation:'Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.'},
-    { label: 'Memorandum of understanding', value: 'An agreement between departments for timed collaboration.'},
+    { label: 'k8s', value: 'Kubernetes', explanation:'Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.'},
+    { label: 'MOU', value: 'Memorandum of understanding', explanation: 'An agreement between departments for timed collaboration.'},
     { label: 'Micromission', value: '3-6 months work assignment. Micromissionee usually comes from other GC department ie secondment'},
     { label: 'MINO', value: "Minister's Office"},
     { label: 'PF', value: 'Progression Framework', explanation: "Performance management and feedback framework for evaluating performance and communicating expectations to CDS employees. Every community at CDS has one, but all share the same five core competencies.", link:"https://docs.google.com/document/d/1fFXGg_aeE95dDTz3VRBprqNhNwZEeBIY41VTEZjOMGk/edit"},
@@ -39,7 +37,4 @@ var data = [
     { label: 'STT', value: 'Show The Things', explanation: "Bi-Weekly All Staff CDS Showcases"},
     { label: 'TBS', value: 'Treasury Board of Canada'},
     { label: 'IITB', value: 'Innovation Information and Technology Branch', explanation: 'IT arm of ESDC'}
-
-
-
 ];
