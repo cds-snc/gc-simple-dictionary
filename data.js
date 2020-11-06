@@ -22,6 +22,7 @@ var data = [
     { label: 'GDS', value: 'The Government Digital Service is a unit of the Government of the United Kingdom\'s Cabinet Office tasked with transforming the provision of online public services.'},
     { label: 'HC', value: 'Health Canada'},
     { label: 'k8s', value: 'Kubernestes', explanation:'Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.'},
+    { label: 'Memorandum of understanding', value: 'An agreement between departments for timed collaboration.'},
     { label: 'Micromission', value: '3-6 months work assignment. Micromissionee usually comes from other GC department ie secondment'},
     { label: 'MINO', value: "Minister's Office"},
     { label: 'PF', value: 'Progression Framework', explanation: "Performance management and feedback framework for evaluating performance and communicating expectations to CDS employees. Every community at CDS has one, but all share the same five core competencies.", link:"https://docs.google.com/document/d/1fFXGg_aeE95dDTz3VRBprqNhNwZEeBIY41VTEZjOMGk/edit"},
