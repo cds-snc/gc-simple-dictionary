@@ -25,7 +25,7 @@ var data = [
     { label: 'Micromission', value: '3-6 months work assignment. Micromissionee usually comes from other GC department ie secondment'},
     { label: 'MINO', value: "Minister's Office"},
     { label: 'PF', value: 'Progression Framework', explanation: "Performance management and feedback framework for evaluating performance and communicating expectations to CDS employees. Every community at CDS has one, but all share the same five core competencies.", link:"https://docs.google.com/document/d/1fFXGg_aeE95dDTz3VRBprqNhNwZEeBIY41VTEZjOMGk/edit"},
-    { label: 'PHAC', value: 'Public Health Agency of Canada'},
+    { label: 'PHAC', value: 'Public Health Agency of Canada', explanation:"he Public Health Agency of Canada empowers Canadians to improve their health. In partnership with others, its activities focus on preventing disease and injuries, promoting good physical and mental health, and providing information to support informed decision making. It values scientific excellence and provides national leadership in response to public health threats."},
     { label: 'PMA', value: 'Performance Management Agreement'},
     { label: 'PSPC', value: 'Public Service Performance Management'},
     { label: 'SA&A', value: 'Security assessment and authorization', explanation: "The structured process through which services are assessed and authorized to operate"},
