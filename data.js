@@ -66,7 +66,7 @@ var data = [
     { label: 'SOW', value: 'Statement of Work'},
     { label: 'SRCL', value: 'Security Requirements Check List', link:'https://www.tbs-sct.gc.ca/tbsf-fsct/350-103-eng.asp'},
     { label: 'SRTM', value: 'Security Requirement Traceability Matrix'},
-    { label: 'SSC', value: 'Shared Services Canada'},
+    { label: 'SSC', value: 'Shared Services Canada', explanation: "Shared Services Canada is an agency of the Government of Canada responsible for providing and consolidating information technology services across federal government departments. It was established in 2011 to combine services such as email and data storage that were at the time duplicated by each agency." },
     { label: 'STT', value: 'Show The Things', explanation: "Bi-Weekly All Staff CDS Showcases"},
     { label: 'TB', value: 'Translation Bureau'},
     { label: 'TBS', value: 'Treasury Board of Canada'},
