@@ -60,7 +60,7 @@ var data = [
     { label: 'SCMA', value: 'Strategic Communications and Ministerial Affairs'},
     { label: 'SFT', value: 'Speech from the Throne', link:"https://www.canada.ca/en/privy-council/campaigns/speech-throne/info-speech-from-throne.html"},
     { label: 'SO', value: 'Treasury Board Secretary’s Office'},
-    { label: 'SOAR', value: 'Statement of Acceptable Risk'. explanation:"This documents all the risks identified during a risk threat assessment, their ratings and planned treatment."},
+    { label: 'SOAR', value: 'Statement of Acceptable Risk', explanation: "This documents all the risks identified during a risk threat assessment, their ratings and planned treatment."},
     { label: 'SOP', value: 'Standard Operating Procedures'},
     { label: 'SOS', value: 'Statement of Sensitivity', explanation:"This is typically filled in by the policy and security team members and outlines the sensitivity of the data (Unclassified, Protected A, Protected B, ...)"},
     { label: 'SOW', value: 'Statement of Work'},
