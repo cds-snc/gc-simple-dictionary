@@ -43,6 +43,8 @@ var data = [
     { label: 'OCHRO', value: 'Office of the Chief Human Resources Officer'},
     { label: 'OCIO', value: 'Office of the Chief Information Officer'},
     { label: 'OKR', value: 'objective and key result'},
+    { label: 'OGD', value: 'other government department'},
+    { label: 'OSS', value: 'open-source software'},
     { label: 'PBMM', value: 'Protected B, Medium Integrity, Medium Availability'},
     { label: 'PCO', value: 'Privy Council Office'},
     { label: 'PF', value: 'Progression Framework', explanation: "Performance management and feedback framework for evaluating performance and communicating expectations to CDS employees. Every community at CDS has one, but all share the same five core competencies.", link:"https://docs.google.com/document/d/1fFXGg_aeE95dDTz3VRBprqNhNwZEeBIY41VTEZjOMGk/edit"},
