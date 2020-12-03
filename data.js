@@ -11,6 +11,7 @@ var data = [
     { label: 'CDS', value: 'Canadian Digital Service', explanation: 'yours truly', link: 'https://digital.canada.ca'},
     { label: 'Celery', explanation: 'A python library. Celery is an open source asynchronous task queue or job queue which is based on distributed message passing.', link: 'https://docs.celeryproject.org/en/stable/index.html'},
     { label: 'CIO', value: 'Chief Information Officer'},
+    { label: 'CIS', value: 'Centre for Internet Security'},
     { label: 'CPP', value: 'Canada Pension Plan'},
     { label: 'CPP-D', value: 'Canada Pension Plan Disability'},
     { label: 'CRA', value: 'Canada Revenue Agency'},
