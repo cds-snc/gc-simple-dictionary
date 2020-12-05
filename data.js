@@ -22,6 +22,7 @@ var data = [
     { label: 'CSS', value: 'Corporate Services Sector'},
     { label: 'DG', value: 'Director General'},
     { label: 'DM', value: 'Deputy Minister'},
+    { label: 'DND', value: 'Department of National Defence', link:"https://www.canada.ca/en/department-national-defence.html"},
     { label: 'DTO', value: 'Digital Transformation Office'},
     { label: 'ELB', value: 'Elastic Load Balancer', explanation:'an AWS service', link:"https://aws.amazon.com/elasticloadbalancing/"},
     { label: 'ESDC', value: 'Employment and Social Development Canada'},
