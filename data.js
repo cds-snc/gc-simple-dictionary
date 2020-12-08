@@ -47,6 +47,7 @@ var data = [
     { label: 'NRCan', value: 'Natural Resources Canada'},
     { label: 'OCHRO', value: 'Office of the Chief Human Resources Officer'},
     { label: 'OCIO', value: 'Office of the Chief Information Officer'},
+    { label: 'OCIF', value: 'Online Contract Information Form'},
     { label: 'OKR', value: 'objective and key result'},
     { label: 'OGD', value: 'other government department'},
     { label: 'OSS', value: 'open-source software'},
