@@ -61,6 +61,8 @@ var data = [
     { label: 'PRI', value: 'personal record identifier'},
     { label: 'PSC', value: 'Public Service Commission'},
     { label: 'PSPC', value: 'Public Service Performance Management'},
+    { label: 'Qualitative research', explanation: "Qualitative research involves collecting and analyzing non-numerical data (e.g., text, video, or audio) to understand concepts, opinions, or experiences. So most of our \"user research\" is focused on truth derived from how people describe their own experience and interaction with a product/service"},
+    { label: 'Quantitative research', explanation: "Quantitative research is the process of collecting and analyzing numerical data. It can be used to find patterns and averages, make predictions, test causal relationships, and generalize results to wider populations."},
     { label: 'RCMP', value: 'Royal Canadian Mounted Police'},
     { label: 'SA&A', value: 'Security assessment and authorization', explanation: "The structured process through which services are assessed and authorized to operate"},
     { label: 'SC', value: 'Service Canada'},
