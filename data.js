@@ -81,6 +81,7 @@ var data = [
     { label: 'STT', value: 'Show The Things', explanation: "Bi-Weekly All Staff CDS Showcases"},
     { label: 'TB', value: 'Translation Bureau'},
     { label: 'TBS', value: 'Treasury Board of Canada'},
+    { label: 'TFWP', value: 'Temporay Foreign Worker Program'},
     { label: 'VAC', value: 'Veterans Affairs Canada'}
    
 
