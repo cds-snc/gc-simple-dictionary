@@ -41,6 +41,7 @@ var data = [
     { label: 'IITB', value: 'Innovation Information and Technology Branch', explanation: 'IT arm of ESDC'},
     { label: 'IRCC', value: 'Immigration, Refugees and Citizenship Canada'},
     { label: 'k8s', value: 'Kubernetes', explanation:'Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.'},
+    { label: 'LEEP', value: 'Local Energy Efficiency Partnerships'},
     { label: 'MOU', value: 'Memorandum of understanding', explanation: 'An agreement between departments for timed collaboration.'},
     { label: 'Micromission', value: '3-6 months work assignment. Micromissionee usually comes from other GC department ie secondment'},
     { label: 'MINO', value: "Minister's Office"},
