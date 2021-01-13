@@ -43,7 +43,8 @@ var data = [
     { label: 'IRCC', value: 'Immigration, Refugees and Citizenship Canada'},
     { label: 'k8s', value: 'Kubernetes', explanation:'Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.'},
     { label: 'LEEP', value: 'Local Energy Efficiency Partnerships'},
-    { label: 'MOU', value: 'Memorandum of understanding', explanation: 'An agreement between departments for timed collaboration.'},
+    { label: 'MC', value: 'Memorandum to Cabinet', explanation: 'The MC focuses on the policy rationale for a new or renewed policy or program initiative'},
+    { label: 'MOU', value: 'Memorandum of Understanding', explanation: 'An agreement between departments for timed collaboration.'},
     { label: 'Micromission', value: '3-6 months work assignment. Micromissionee usually comes from other GC department ie secondment'},
     { label: 'MINO', value: "Minister's Office"},
     { label: 'NRCan', value: 'Natural Resources Canada'},
@@ -83,6 +84,7 @@ var data = [
     { label: 'STT', value: 'Show The Things', explanation: "Bi-Weekly All Staff CDS Showcases"},
     { label: 'TB', value: 'Translation Bureau'},
     { label: 'TBS', value: 'Treasury Board of Canada'},
+    { label: 'TBSub', value: 'Treasury Board (TB) submissions', explanation:'A TB submission, focuses primarily on program implementation, detailed costing information, results and outcomes. A submission outlines how the policy rationale and objectives are transformed into an initiative or program that will achieve those objectives'},
     { label: 'TFWP', value: 'Temporay Foreign Worker Program'},
     { label: 'VAC', value: 'Veterans Affairs Canada'}
    
