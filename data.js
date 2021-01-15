@@ -86,7 +86,9 @@ var data = [
     { label: 'TBS', value: 'Treasury Board of Canada'},
     { label: 'TBSub', value: 'Treasury Board (TB) submissions', explanation:'A TB submission, focuses primarily on program implementation, detailed costing information, results and outcomes. A submission outlines how the policy rationale and objectives are transformed into an initiative or program that will achieve those objectives'},
     { label: 'TFWP', value: 'Temporay Foreign Worker Program'},
-    { label: 'VAC', value: 'Veterans Affairs Canada'}
+    { label: 'VAC', value: 'Veterans Affairs Canada'},
+    { label: 'WET', value: 'Web Experience Toolkit', explanation:'front-end framework for building websites, collaborative open source project led by the Government of Canada', link:'https://wet-boew.github.io/wet-boew/index-en.html'}
+
    
 
 ];
