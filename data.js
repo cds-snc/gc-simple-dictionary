@@ -58,6 +58,7 @@ var data = [
     { label: 'OSS', value: 'open-source software'},
     { label: 'PBMM', value: 'Protected B, Medium Integrity, Medium Availability'},
     { label: 'PCO', value: 'Privy Council Office', explanation:" PCO is staffed with non-partisan, career public servants, and functions in an \"operationally oriented, yet politically sensitive fashion\"."},
+    { label: 'PeopleSoft', explantion: "Employees use Phoenix self-service to view personal information, enter time and request leave."},
     { label: 'PF', value: 'Progression Framework', explanation: "Performance management and feedback framework for evaluating performance and communicating expectations to CDS employees. Every community at CDS has one, but all share the same five core competencies.", link:"https://docs.google.com/document/d/1fFXGg_aeE95dDTz3VRBprqNhNwZEeBIY41VTEZjOMGk/edit"},
     { label: 'PHAC', value: 'Public Health Agency of Canada', explanation:"he Public Health Agency of Canada empowers Canadians to improve their health. In partnership with others, its activities focus on preventing disease and injuries, promoting good physical and mental health, and providing information to support informed decision making. It values scientific excellence and provides national leadership in response to public health threats."},
     { label: 'PMA', value: 'Performance Management Agreement'},
