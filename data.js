@@ -42,6 +42,7 @@ var data = [
     { label: 'GCMS', value: 'Global Case Management System'},
     { label: 'GCWiki', explanation: 'The GCwiki is a public wiki hosted by the Government of Canada to facilitate collaboration and knowledge sharing.', link:"https://wiki.gccollab.ca/"},
     { label: 'GDS', value: 'The UK Government Digital Service', explanation: 'The Government Digital Service is a unit of the Government of the United Kingdom\'s Cabinet Office tasked with transforming the provision of online public services.'},
+    { label: 'GR', value: 'Government relations (lobbyists)' },
     { label: 'HC', value: 'Health Canada'},
     { label: 'HFA', value: 'Heads of Federal Agencies', link:'https://www.canada.ca/en/privy-council/services/publications/guide-book-heads-agencies-operations-structures-responsibilities-federal-government.html'},
     { label: 'iATO', value: 'Interim Authority To Operate', explanation:"See ATO"},
