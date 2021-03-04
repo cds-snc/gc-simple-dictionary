@@ -35,7 +35,7 @@ var data = [
     { label: 'Form 9200', explanation: "Requisition for Goods and Services and Construction form"},
     { label: 'FTP', value: 'federal / provincial / territorial'},
     { label: 'GC', value: 'Government of Canada'},
-    { label: 'GCcollab', value: 'collaboration platform', explanation:"GCcollab is open to students and academics from all Canadian universities and colleges as well as federal, provincial, territorial and municipal public servants. GCcollab is a major step toward a more innovative, open, and collaborative way of identifying, exploring and co-creating the policy and research agendas.", link"https://gccollab.ca/"},
+    { label: 'GCcollab', value: 'collaboration platform', explanation:"GCcollab is open to students and academics from all Canadian universities and colleges as well as federal, provincial, territorial and municipal public servants. GCcollab is a major step toward a more innovative, open, and collaborative way of identifying, exploring and co-creating the policy and research agendas.", link:"https://gccollab.ca/"},
     { label: 'GCconnex ', value: 'Online messaging board', explanation:"GCconnex is a professional networking and collaborative workspace for all public servants, allowing them to connect and share information, leveraging the power of networking towards a more effective and efficient public service.",link:"https://gcconnex.gc.ca/login"},
     { label: 'GCKey', value: 'Single Sign On attempt by the Office of the CIO within TBS'},
     { label: 'GCMessage', value: 'the instant messaging beta product from the Digital Enablement team at TBS', link:"https://message.gccollab.ca/"},
