@@ -30,6 +30,7 @@ var data = [
     { label: 'DTO', value: 'Digital Transformation Office'},
     { label: 'EARB', value: 'Enterprise architecture review board'},
     { label: 'ELB', value: 'Elastic Load Balancer', explanation:'an AWS service', link:"https://aws.amazon.com/elasticloadbalancing/"},
+    { label: 'ECCC', value: 'Environment and Climate Change Canada'},
     { label: 'ESDC', value: 'Employment and Social Development Canada'},
     { label: 'FES', value: 'Fall Economic Statement', explanation:"The budget, usually tabled early in the year, is generally preceded in the fall by another major statement, the Fall Economic Statement.", link:"https://www.canada.ca/en/department-finance/services/publications/fall-economic-statement.html"},
     { label: 'FIP', value: 'Federal Identity Program'},
