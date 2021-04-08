@@ -1,5 +1,6 @@
 var data = [
     { label: 'ADM', value: 'Assistant Deputy Minister'},
+    { label: 'AEM', value: 'Adobe Experience Manager', explanation:"Most departments use AEM for pages under canada.ca"},
     { label: 'API', value: 'Application Programming Interface', explanation:"This is a concept in software technology that essentially refers to how multiple applications can interact with and obtain data from one another."},
     { label: 'ATI', value: 'Access to Information'},
     { label: 'ATIP', value: 'Access to Information and Privacy', explanation: 'Canadians can request internal records and communications from the government (i.e. ATIP requests). Recent ones have included records of Slack and email chats around COVID Alert.'},
