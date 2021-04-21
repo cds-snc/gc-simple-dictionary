@@ -72,6 +72,7 @@ var data = [
     { label: 'PeopleSoft', explantion: "Employees use Phoenix self-service to view personal information, enter time and request leave."},
     { label: 'PF', value: 'Progression Framework', explanation: "Performance management and feedback framework for evaluating performance and communicating expectations to CDS employees. Every community at CDS has one, but all share the same five core competencies.", link:"https://docs.google.com/document/d/1fFXGg_aeE95dDTz3VRBprqNhNwZEeBIY41VTEZjOMGk/edit"},
     { label: 'PHAC', value: 'Public Health Agency of Canada', explanation:"he Public Health Agency of Canada empowers Canadians to improve their health. In partnership with others, its activities focus on preventing disease and injuries, promoting good physical and mental health, and providing information to support informed decision making. It values scientific excellence and provides national leadership in response to public health threats."},
+    { label: 'PM', value: 'Prime Minister'},
     { label: 'PMA', value: 'Performance Management Agreement'},
     { label: 'PMO', value: "Prime Minister's Office", explanation:"The PMO is a staff unit that supports the Prime Minister in his activities as leader of the political party forming the Government. Staff of the PMO are appointed on a partisan basis, and operate in a \"politically oriented, yet operationally sensitive fashion\""},
     { label: 'POR', value: 'public opinion research'},
