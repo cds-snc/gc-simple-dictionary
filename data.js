@@ -99,6 +99,7 @@ var data = [
     { label: 'STT', value: 'Show The Things', explanation: "Bi-Weekly All Staff CDS Showcases"},
     { label: 'TB', value: 'Translation Bureau'},
     { label: 'TBS', value: 'Treasury Board of Canada'},
+    { label: 'TBS Audit Committee', explanation: "The TBS Audit Committee advises on matters related to governance, risk and controls, and it serves as a strategic advisory board for key TBS initiatives."},
     { label: 'TBSub', value: 'Treasury Board (TB) submissions', explanation:'A TB submission, focuses primarily on program implementation, detailed costing information, results and outcomes. A submission outlines how the policy rationale and objectives are transformed into an initiative or program that will achieve those objectives'},
     { label: 'TFWP', value: 'Temporay Foreign Worker Program'},
     { label: 'VAC', value: 'Veterans Affairs Canada'},
