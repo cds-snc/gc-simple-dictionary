@@ -158,7 +158,7 @@ var data = [
     { label: 'MC', value: 'Measurement Canada'},
     { label: 'MC', value: 'Memorandum to Cabinet', explanation: 'The MC focuses on the policy rationale for a new or renewed policy or program initiative'},
     { label: 'MGERC', value: 'Military Grievances External Review Committee'},
-    { label: 'Micromission', value: '3-6 months work assignment. Micromissionee usually comes from other GC department ie secondment'},
+    { label: 'Micromission', value: '3-6 months work assignment. Micromission usually comes from other GC department ie secondment'},
     { label: 'MINO', value: "Minister's Office"},
     { label: 'Mint', value: 'Royal Canadian Mint'},
     { label: 'MOU', value: 'Memorandum of Understanding', explanation: 'An agreement between departments for timed collaboration.'},
@@ -181,7 +181,7 @@ var data = [
     { label: 'OCL', value: 'Commissioner of Lobbying of Canada (Office of the)'},
     { label: 'OCMJ', value: 'Office of the Chief Military Judge'},
     { label: 'OCOL', value: 'Commissioner of Official Languages (Office of the)'},
-    { label: 'ODS', value: 'Ontario Digitial Service'},
+    { label: 'ODS', value: 'Ontario Digital Service'},
     { label: 'OFOVC', value: 'Federal Ombudsman for Victims Of Crime (Office of the)'},
     { label: 'OGD', value: 'other government department'},
     { label: 'OHSTC', value: 'Occupational Health and Safety Tribunal Canada'},
@@ -257,7 +257,7 @@ var data = [
     { label: 'TC', value: 'Transport Canada'},
     { label: 'TCC', value: 'Tax Court of Canada'},
     { label: 'TCS', value: 'Canadian Trade Commissioner Service'},
-    { label: 'TFWP', value: 'Temporay Foreign Worker Program'},
+    { label: 'TFWP', value: 'Temporary Foreign Worker Program'},
     { label: 'TSB', value: 'Transportation Safety Board of Canada'},
     { label: 'VAC', value: 'Veterans Affairs Canada'},
     { label: 'VMC', value: 'Virtual Museum of Canada'},
@@ -267,7 +267,7 @@ var data = [
     { label: 'WDBA', value: 'Windsor-Detroit Bridge Authority'},
     { label: 'WET', value: 'Web Experience Toolkit', explanation:'front-end framework for building websites, collaborative open source project led by the Government of Canada', link:'https://wet-boew.github.io/wet-boew/index-en.html'},
     { label: 'YOUTH', value: 'Youth'}
-    
-   
+
+
 
 ];
