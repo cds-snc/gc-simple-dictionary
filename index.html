@@ -215,7 +215,7 @@
       <p>Lookup</p>
       <input type="text" id="testinput" placeholder="Start typing" />
       <div id="result"></div>
-      
+
       <div id="def-preFooter">
         <!-- Write closure fall-back static file -->
         <!-- /ROOT/app/cls/WET/gcweb/v4_0_28/cdts/static/preFooter-en.html -->
@@ -272,9 +272,11 @@
           inputfield.value = item.label;
           _explanation = item.explanation ? item.explanation : "";
           _link = item.link ? `<a href=${item.link}>${item.link}</a>` : "";
+
+          const value = item.value !== undefined ? `: ${item.value}` : "";
           document.getElementById(
             "result"
-          ).innerHTML = `<strong>${item.label}</strong>: ${item.value}<p>${_explanation}</p>${_link}`;
+          ).innerHTML = `<strong>${item.label}</strong>${value}<p>${_explanation}</p>${_link}`;
         },
         fetch: function (text, callback) {
           var match = text.toLowerCase();
@@ -287,9 +289,9 @@
             var inner = item.label.replace(regex, function (match) {
               return "<strong>" + match + "</strong>";
             });
-            itemElement.innerHTML = inner + " " + item.value;
+            itemElement.innerHTML = inner + " " + (item.value || "");
           } else {
-            itemElement.textContent = item.label + item.value;
+            itemElement.textContent = item.label + (item.value || "");
           }
           return itemElement;
         },
