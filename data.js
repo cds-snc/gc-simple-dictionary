@@ -158,7 +158,7 @@ var data = [
     { label: 'MC', value: 'Measurement Canada'},
     { label: 'MC', value: 'Memorandum to Cabinet', explanation: 'The MC focuses on the policy rationale for a new or renewed policy or program initiative'},
     { label: 'MGERC', value: 'Military Grievances External Review Committee'},
-    { label: 'Micromission', value: '3-6 months work assignment. Micromission usually comes from other GC department ie secondment'},
+    { label: 'Micromission', value: '3-6 months work assignment. A micromissionee usually comes from other GC departments (ie secondment)'},
     { label: 'MINO', value: "Minister's Office"},
     { label: 'Mint', value: 'Royal Canadian Mint'},
     { label: 'MOU', value: 'Memorandum of Understanding', explanation: 'An agreement between departments for timed collaboration.'},
