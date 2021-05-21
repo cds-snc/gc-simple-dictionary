@@ -229,7 +229,7 @@ var data = [
     { label: 'RMCC', value: 'Royal Military College of Canada'},
     { label: 'SA&A', value: 'Security assessment and authorization', explanation: "The structured process through which services are assessed and authorized to operate"},
     { label: 'SC', value: 'Service Canada'},
-    { label: 'SCC-CCN', value: 'Standards Council of Canada'
+    { label: 'SCC-CCN', value: 'Standards Council of Canada'},
     { label: 'SCC', value: 'Supreme Court of Canada'},
     { label: 'SCIF', value: 'Sensitive Compartmented Information Facility', explanation: "pronounced \"skiff\", s an enclosed area within a building that is used to process Sensitive Compartmented Information (SCI) types of classified information."},
     { label: 'SCMA', value: 'Strategic Communications and Ministerial Affairs'},
