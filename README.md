@@ -14,9 +14,7 @@ retrouver les définition des acronymes qu'on retrouve au Gouvernement du Canada
 Edit this file https://github.com/cds-snc/gc-simple-dictionary/edit/main/data.js
 
 ## Other source of definitions
-- [Government of Canada Departments and Agencies](https://www.canada.ca/en/government/dept.html)
-- [CDS Official Lexicon](https://docs.google.com/spreadsheets/d/16Xo5ROhRLjH1sxlFLd9Jz3R-x5oCx62rkQ1cvOBV3jE/edit#gid=2132377485)
-- [Treasury Board of Canada Secretariat - Glossary](https://www.tbs-sct.gc.ca/pol/glossary-lexique-eng.aspx)
-- [Public Service and Procurement Canada - Glossary of Acronyms](https://www.tpsgc-pwgsc.gc.ca/comm/glssr-eng.html)
-- [Public Service and Procurement Canada - Standard Acquisition Clauses and Conditions (SACC) Acronym Glossary](https://buyandsell.gc.ca/policy-and-guidelines/standard-acquisition-clauses-and-conditions-manual/sacc-acronym-glossary)
-- [LGBTQ2 Secretariat - Glossary and Common Acronyms](https://www.canada.ca/en/canadian-heritage/campaigns/free-to-be-me/lgbtq2-glossary.html)
+- https://docs.google.com/spreadsheets/d/16Xo5ROhRLjH1sxlFLd9Jz3R-x5oCx62rkQ1cvOBV3jE/edit#gid=2132377485
+- https://www.tpsgc-pwgsc.gc.ca/comm/glssr-eng.html
+- https://www.tbs-sct.gc.ca/pol/glossary-lexique-eng.aspx
+- https://buyandsell.gc.ca/policy-and-guidelines/standard-acquisition-clauses-and-conditions-manual/sacc-acronym-glossary
