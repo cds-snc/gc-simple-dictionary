@@ -8,12 +8,14 @@ you can stumble on at the Government of Canada
 Une simple page web avec une fonctionalité de saisie automatique pour
 retrouver les définition des acronymes qu'on retrouve au Gouvernement du Canada
 
-
-## How to add a new definition
+## How to add a new definition / Comment ajouter une nouvelle définition
 
 Edit this file https://github.com/cds-snc/gc-simple-dictionary/edit/main/data.js
 
-## Other source of definitions
+Modifier ce fichier https://github.com/cds-snc/gc-simple-dictionary/edit/main/data.js
+
+## Other source of definitions / Autres source de définitions
+
 - [Government of Canada Departments and Agencies](https://www.canada.ca/en/government/dept.html)
 - [CDS Official Lexicon](https://docs.google.com/spreadsheets/d/16Xo5ROhRLjH1sxlFLd9Jz3R-x5oCx62rkQ1cvOBV3jE/edit#gid=2132377485)
 - [Treasury Board of Canada Secretariat - Glossary](https://www.tbs-sct.gc.ca/pol/glossary-lexique-eng.aspx)

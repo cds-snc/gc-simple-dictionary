@@ -20,6 +20,7 @@ var data = [
     { label: 'BOEW', value: 'Boîte à outils de l’expérience Web',explanation:"Une bibliothèque de code primée pour construire des sites Web accessibles, faciles d'emploi, interopérables, optimisés pour les appareils mobiles et multilingues", link:'https://wet-boew.github.io/wet-boew/index-fr.html'},
     { label: 'BWB', value: 'Blue Water Bridge Canada'},
     { label: 'CA', value: 'Canadian Army'},
+    { label: 'CAF', value: 'Canadian Armed Forces'},
     { label: 'CAFC', value: 'Canada Firearms Centre'},
     { label: 'CanNor', value: 'Canadian Northern Economic Development Agency'},
     { label: 'CANSOFCOM', value: 'Canadian Special Operations Forces Command'},
