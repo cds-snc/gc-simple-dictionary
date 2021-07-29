@@ -244,6 +244,7 @@ var data = [
     { label: 'PSLREB', value: 'Public Service Labour Relations and Employment Board'},
     { label: 'PSPC', value: 'Public Services and Procurement Canada'},
     { label: 'PSPM', value: 'Public Service Performance Management'},
+    { label: 'QP', value: 'Question Period', explanation: "The right to seek information from the ministry of the day and the right to hold that ministry accountable are two of the fundamental principles of parliamentary government. Members exercise these rights principally by asking questions in the House. Questions may be asked orally, for instance during Question Period, or may be submitted in writing."},
     { label: 'Qualitative research', explanation: "Qualitative research involves collecting and analyzing non-numerical data (e.g., text, video, or audio) to understand concepts, opinions, or experiences. So most of our \"user research\" is focused on truth derived from how people describe their own experience and interaction with a product/service"},
     { label: 'Quantitative research', explanation: "Quantitative research is the process of collecting and analyzing numerical data. It can be used to find patterns and averages, make predictions, test causal relationships, and generalize results to wider populations."},
     { label: 'Queer', explanation: "Historically a derogatory term used as a slur against LGBTQ2 people, this term has been reclaimed by many LGBTQ2 people as a positive way to describe themselves, and as a way to include the many diverse identities not covered by common LGBTQ2 acronym."},
