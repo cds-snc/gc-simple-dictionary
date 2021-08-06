@@ -265,6 +265,7 @@
         return allowedChars.test(value);
       }
 
+
       autocomplete({
         input: document.getElementById("testinput"),
         minLength: 1,
@@ -276,7 +277,7 @@
           const value = item.value !== undefined ? `: ${item.value}` : "";
           document.getElementById(
             "result"
-          ).innerHTML = `<strong>${item.label}</strong>${value}<p>${_explanation}</p>${_link}`;
+          ).innerHTML = `<strong>${item.label}</strong>${value}<p>${_explanation}</p><p>${_link}</p><p>Link to this definition: <a href="${window.location.href.split('?')[0]}?q=${item.label}">${window.location.href.split('?')[0]}?q=${item.label}</a>`;
         },
         fetch: function (text, callback) {
           var match = text.toLowerCase();
@@ -305,6 +306,25 @@
           }
         },
       });
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const myParam = urlParams.get('q');
+
+      if(myParam) {
+        var s = document.getElementById("testinput");
+        s.value = myParam;
+        results = data.filter((n) => n.label.toLowerCase().startsWith(myParam.toLowerCase()));
+        if(results.length == 1){
+          item = results[0];
+          _explanation = item.explanation ? item.explanation : "";
+          _link = item.link ? `<a href=${item.link}>${item.link}</a>` : "";
+
+          const value = item.value !== undefined ? `: ${item.value}` : "";
+          document.getElementById(
+            "result"
+          ).innerHTML = `<strong>${item.label}</strong>${value}<p>${_explanation}</p><p>${_link}</p><p>Link to this definition: <a href="${window.location}">${window.location}</a>`;
+        }
+      }
 
       document.querySelector("input").focus();
     </script>
