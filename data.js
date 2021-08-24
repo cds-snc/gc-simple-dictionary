@@ -102,6 +102,7 @@ var data = [
     { label: 'DM', value: 'Deputy Minister', explanation:'highest non-political level', link:"https://www.canada.ca/en/privy-council/services/publications/guidance-deputy-ministers.html#TOC1_4"},
     { label: 'DND', value: 'Department of National Defence', link:"https://www.canada.ca/en/department-national-defence.html"},
     { label: 'DRDC', value: 'Defence Research and Development Canada'},
+    { label: 'DSO', value: 'Departmental Security Officer'},
     { label: 'DTO', value: 'Digital Transformation Office'},
     { label: 'EARB', value: 'Enterprise architecture review board'},
     { label: 'ECCC', value: 'Environment and Climate Change Canada'},
