@@ -3,6 +3,7 @@ var data = [
     { label: 'AAFC', value: 'Agriculture and Agri-Food Canada'},
     { label: 'ACOA', value: 'Atlantic Canada Opportunities Agency'},
     { label: 'ADM', value: 'Assistant Deputy Minister'},
+    { label: 'ADR', value: 'Architectural Decision Records', explanation:"An Architectural Decision Record (ADR) captures a single AD (Architecture Decision), such as often done when writing personal notes or meeting minutes"},
     { label: 'AECL', value: 'Atomic Energy of Canada Limited'},
     { label: 'AEM', value: 'Adobe Experience Manager', explanation:"Most departments use AEM for pages under canada.ca"},
     { label: 'APA', value: 'Atlantic Pilotage Authority Canada'},
