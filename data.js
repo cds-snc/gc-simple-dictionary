@@ -188,9 +188,13 @@ var data = [{
     },
     {
         label: 'CDS',
+        label_fr: 'SNC',
         value: 'Canadian Digital Service',
-        explanation: 'yours truly',
-        link: 'https://digital.canada.ca'
+        value_fr: 'Service Numérique Canadien',
+        explanation: 'The Canadian Digital Service teams up with federal departments and agencies to put people’s needs at the centre of government services.',
+        explanation_fr: 'Le Service numérique canadien (SNC) fait équipe avec des ministères et des organismes fédéraux afin d’axer les services gouvernementaux sur les besoins des gens.',
+        link: 'https://digital.canada.ca',
+        link_fr: 'https://numerique.canada.ca/'
     },
     {
         label: 'CED',
