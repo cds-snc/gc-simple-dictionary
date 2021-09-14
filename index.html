@@ -4,12 +4,12 @@
   <head>
     <meta charset="utf-8" />
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-    <title>GC Simple Dictionary - Blazing fast and lightweight autocomplete dictionary</title>
+    <title>GC Simple Dictionary - Fast and lightweight autocomplete dictionary</title>
     <meta content="width=device-width,initial-scale=1" name="viewport" />
     <!-- Meta data -->
     <meta
       name="description"
-      content="Blazing fast and lightweight autocomplete dictionary"
+      content="Fast and lightweight autocomplete dictionary"
     />
     <!-- Meta data-->
     <!-- Load closure template scripts -->
@@ -158,8 +158,10 @@
       }
 
       #result {
-        background-color: yellow;
+        background-color: white;
         margin-top: 3em;
+        margin-bottom: 2em;
+        padding: 0.25em;
       }
 
       .link {
@@ -207,26 +209,19 @@
     <script>
       var defTop = document.getElementById("def-top");
       defTop.outerHTML = wet.builder.appTop({
-        appName: [{ text: "GC Simple Dictionary", href: "#" }],
+        appName: [{ text: "Simple Dictionary - Dictionnaire simplifié", href: "#" }],
       });
     </script>
     <main role="main" property="mainContentOfPage" class="container">
-      <h1>Blazing fast and lightweight autocomplete dictionary</h1>
-      <p>Lookup</p>
-      <input type="text" id="testinput" placeholder="Start typing" />
+      <h3>Lookup - Recherche</h3>
+      <input type="text" id="userinput" placeholder="Start typing - Commencez à taper" />
       <div id="result"></div>
 
       <div id="def-preFooter">
         <!-- Write closure fall-back static file -->
         <!-- /ROOT/app/cls/WET/gcweb/v4_0_28/cdts/static/preFooter-en.html -->
       </div>
-      <!-- Write closure template -->
-      <script>
-        var defPreFooter = document.getElementById("def-preFooter");
-        defPreFooter.outerHTML = wet.builder.preFooter({
-          dateModified: "2020-03-16",
-        });
-      </script>
+
     </main>
     <div id="def-footer">
       <!-- Write closure fall-back static file -->
@@ -239,11 +234,11 @@
         footerSections: [
           {
             href: "https://github.com/cds-snc/gc-simple-dictionary/edit/main/data.js",
-            text: "Add/Update a new definition",
+            text: "Add/Update a new definition - Ajouter/mettre à jour une nouvelle définition",
           },
           {
             href: "https://github.com/cds-snc/gc-simple-dictionary",
-            text: "Improve the web page",
+            text: "Improve the web page - Améliorer la page web",
           },
         ],
         showFeatures: false,
@@ -267,21 +262,33 @@
 
 
       autocomplete({
-        input: document.getElementById("testinput"),
+        input: document.getElementById("userinput"),
         minLength: 1,
         onSelect: function (item, inputfield) {
           inputfield.value = item.label;
           _explanation = item.explanation ? item.explanation : "";
           _link = item.link ? `<a href=${item.link}>${item.link}</a>` : "";
 
+          _label_fr = item.label_fr ? "<strong>"+item.label_fr+"</strong>" : "<i>La version française est manquante</i>"
+          _value_fr = item.value_fr ? `: ${item.value_fr}` : "";
+          _explanation_fr = item.explanation_fr ? item.explanation_fr : "";
+          _link_fr = item.link_fr ? `<a href=${item.link_fr}>${item.link_fr}</a>` : "";
+
           const value = item.value !== undefined ? `: ${item.value}` : "";
           document.getElementById(
             "result"
-          ).innerHTML = `<strong>${item.label}</strong>${value}<p>${_explanation}</p><p>${_link}</p><p>Link to this definition: <a href="${window.location.href.split('?')[0]}?q=${item.label}">${window.location.href.split('?')[0]}?q=${item.label}</a>`;
+          ).innerHTML = `<strong>${item.label}</strong>${value}<p>${_explanation}</p><p>${_link}</p><p>Link to this definition: <a href="${window.location.href.split('?')[0]}?q=${item.label}">${window.location.href.split('?')[0]}?q=${item.label}</a>
+            <hr/>${_label_fr}${_value_fr}<p>${_explanation_fr}</p><p>${_link_fr}</p>`;
         },
         fetch: function (text, callback) {
           var match = text.toLowerCase();
-          callback(data.filter((n) => n.label.toLowerCase().startsWith(match)));
+          callback(data.filter(function(n){
+            if(n.label_fr) {
+              return n.label.toLowerCase().startsWith(match) || n.label_fr.toLowerCase().startsWith(match);
+            } else {
+              return n.label.toLowerCase().startsWith(match);
+            }
+          }));
         },
         render: function (item, value) {
           var itemElement = document.createElement("div");
@@ -290,18 +297,24 @@
             var inner = item.label.replace(regex, function (match) {
               return "<strong>" + match + "</strong>";
             });
-            itemElement.innerHTML = inner + " " + (item.value || "");
+            if(item.label_fr){
+              var inner_fr = item.label_fr.replace(regex, function (match) {
+                return "<strong>" + match + "</strong>";
+              });
+              itemElement.innerHTML = inner + " " + (item.value || "") + " - " + inner_fr + " " + (item.value_fr || "") ;
+            } else {
+              itemElement.innerHTML = inner + " " + (item.value || "");
+            }
           } else {
             itemElement.textContent = item.label + (item.value || "");
           }
           return itemElement;
         },
-        emptyMsg: "No word found",
+        emptyMsg: "No word found - Aucun mot trouvé",
         customize: function (input, inputRect, container, maxHeight) {
           if (maxHeight < 100) {
             container.style.top = "";
-            container.style.bottom =
-              window.innerHeight - inputRect.bottom + input.offsetHeight + "px";
+            container.style.bottom = window.innerHeight - inputRect.bottom + input.offsetHeight + "px";
             container.style.maxHeight = "140px";
           }
         },
@@ -311,7 +324,7 @@
       const myParam = urlParams.get('q');
 
       if(myParam) {
-        var s = document.getElementById("testinput");
+        var s = document.getElementById("userinput");
         s.value = myParam;
         results = data.filter((n) => n.label.toLowerCase().startsWith(myParam.toLowerCase()));
         if(results.length == 1){
@@ -327,6 +340,10 @@
       }
 
       document.querySelector("input").focus();
+
+      function filterLabels(item, match) {
+        item.label.toLowerCase().startsWith(match);
+      }
     </script>
   </body>
 </html>
