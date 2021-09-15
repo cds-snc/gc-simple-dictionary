@@ -6,11 +6,15 @@ var data = [{
     },
     {
         label: 'AAFC',
-        value: 'Agriculture and Agri-Food Canada'
+        label_fr: 'AAC',
+        value: 'Agriculture and Agri-Food Canada',
+        value_fr: 'Agriculture et Agroalimentaire Canada'
     },
     {
         label: 'ACOA',
-        value: 'Atlantic Canada Opportunities Agency'
+        label_fr: 'APECA',
+        value: 'Atlantic Canada Opportunities Agency',
+        value_fr: 'Agence de promotion économique du Canada atlantique'
     },
     {
         label: 'ADM',
@@ -23,7 +27,9 @@ var data = [{
     },
     {
         label: 'AECL',
-        value: 'Atomic Energy of Canada Limited'
+        label_fr: 'EACL',
+        value: 'Atomic Energy of Canada Limited',
+        value_fr: 'Énergie atomique du Canada, Limitée'
     },
     {
         label: 'AEM',
@@ -32,7 +38,9 @@ var data = [{
     },
     {
         label: 'APA',
-        value: 'Atlantic Pilotage Authority Canada'
+        label_fr: 'APA',
+        value: 'Atlantic Pilotage Authority Canada',
+        value_fr: "Administration de pilotage de l'Atlantique Canada"
     },
     {
         label: 'API',
@@ -78,11 +86,15 @@ var data = [{
     },
     {
         label: 'ATSSC',
-        value: 'Administrative Tribunals Support Service of Canada'
+        label_fr: 'SCDATA',
+        value: 'Administrative Tribunals Support Service of Canada',
+        value_fr: "Service canadien d'appui aux tribunaux administratifs"
     },
     {
         label: 'BDC',
-        value: 'Business Development Bank of Canada'
+        label_fr: 'BDC',
+        value: 'Business Development Bank of Canada',
+        value_fr: 'Banque de développement du Canada'
     },
     {
         label: 'Biphobia',
@@ -100,15 +112,21 @@ var data = [{
     },
     {
         label: 'BWB',
-        value: 'Blue Water Bridge Canada'
+        label_fr: 'PBW',
+        value: 'Blue Water Bridge Canada',
+        value_fr: 'Pont Blue Water Canada'
     },
     {
         label: 'CA',
-        value: 'Canadian Army'
+        laebl_fr: 'AC',
+        value: 'Canadian Army',
+        value_fr: 'Armée canadienne'
     },
     {
         label: 'CAF',
-        value: 'Canadian Armed Forces'
+        label_fr: 'FAC',
+        value: 'Canadian Armed Forces',
+        value_fr: 'Forces armée canadiennes'
     },
     {
         label: 'CAFC',
@@ -116,7 +134,9 @@ var data = [{
     },
     {
         label: 'CanNor',
-        value: 'Canadian Northern Economic Development Agency'
+        label_fr: 'CanNor',
+        value: 'Canadian Northern Economic Development Agency',
+        value_fr: 'Agence canadienne de développement économique du Nord'
     },
     {
         label: 'CANSOFCOM',
