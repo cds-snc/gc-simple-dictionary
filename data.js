@@ -1,8 +1,9 @@
-var data = [{
-    label: 'AAACT',
-    value: 'Accessibility, Accommodation and Adaptive Computer Technology',
-    explanation: "AAACT offers a wide range of adaptations, alternate approaches, tools, training, services, resources and adaptive computer technologies for public service employees with disabilities or injuries.",
-    link: "https://www.canada.ca/en/shared-services/corporate/aaact-program.html"
+var data = [
+    {
+        label: 'AAACT',
+        value: 'Accessibility, Accommodation and Adaptive Computer Technology',
+        explanation: "AAACT offers a wide range of adaptations, alternate approaches, tools, training, services, resources and adaptive computer technologies for public service employees with disabilities or injuries.",
+        link: "https://www.canada.ca/en/shared-services/corporate/aaact-program.html"
     },
     {
         label: 'AAFC',
@@ -424,6 +425,11 @@ var data = [{
     {
         label: 'CTA',
         value: 'Canadian Transportation Agency'
+    },
+    {
+        label: 'CVE',
+        value: 'Common Vulnerabilities and Exposures',
+        explanation: "CVE, short for Common Vulnerabilities and Exposures, is a list of publicly disclosed computer security flaws. When someone refers to a CVE, they mean a security flaw that's been assigned a CVE ID number. Security advisories issued by vendors and researchers almost always mention at least one CVE ID"
     },
     {
         label: 'DC',
