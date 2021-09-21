@@ -216,6 +216,16 @@ var data = [
         explanation_fr: 'Le Service numérique canadien (SNC) fait équipe avec des ministères et des organismes fédéraux afin d’axer les services gouvernementaux sur les besoins des gens.',
         link: 'https://digital.canada.ca',
         link_fr: 'https://numerique.canada.ca/'
+    }, 
+    {
+        label: 'CDTS',
+        label_fr: 'SGDC',
+        value: 'Centrally Deployed Templates Solution',
+        value_fr: 'Solution de gabarits à déploiement centralisé',
+        explanation: "The purpose of the CDTS is essentially to deliver the presentation layer of the Canada.ca theme or Intranet.canada.ca theme to web assets.",
+        explanation_fr: "L’objectif de la SGDC est de fournir la couche de présentation des thèmes Canada.ca et intranet.canada.ca aux actifs Web.",
+        link: 'https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html',
+        link_fr: 'https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html'
     },
     {
         label: 'CED',
