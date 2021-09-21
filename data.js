@@ -1053,6 +1053,12 @@ var data = [
         value: 'privacy impact assessments'
     },
     {
+        label: 'PIPEDA',
+        value: 'Personal Information Protection and Electronic Documents Act',
+        label_fr: "LPRPDE",
+        value_fr: "Loi sur la protection des renseignements personnels et les documents électroniques"
+    },
+    {
         label: 'PM',
         value: 'Prime Minister'
     },
