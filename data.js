@@ -1,8 +1,9 @@
-var data = [{
-    label: 'AAACT',
-    value: 'Accessibility, Accommodation and Adaptive Computer Technology',
-    explanation: "AAACT offers a wide range of adaptations, alternate approaches, tools, training, services, resources and adaptive computer technologies for public service employees with disabilities or injuries.",
-    link: "https://www.canada.ca/en/shared-services/corporate/aaact-program.html"
+var data = [
+    {
+        label: 'AAACT',
+        value: 'Accessibility, Accommodation and Adaptive Computer Technology',
+        explanation: "AAACT offers a wide range of adaptations, alternate approaches, tools, training, services, resources and adaptive computer technologies for public service employees with disabilities or injuries.",
+        link: "https://www.canada.ca/en/shared-services/corporate/aaact-program.html"
     },
     {
         label: 'AAFC',
@@ -215,6 +216,16 @@ var data = [{
         explanation_fr: 'Le Service numérique canadien (SNC) fait équipe avec des ministères et des organismes fédéraux afin d’axer les services gouvernementaux sur les besoins des gens.',
         link: 'https://digital.canada.ca',
         link_fr: 'https://numerique.canada.ca/'
+    }, 
+    {
+        label: 'CDTS',
+        label_fr: 'SGDC',
+        value: 'Centrally Deployed Templates Solution',
+        value_fr: 'Solution de gabarits à déploiement centralisé',
+        explanation: "The purpose of the CDTS is essentially to deliver the presentation layer of the Canada.ca theme or Intranet.canada.ca theme to web assets.",
+        explanation_fr: "L’objectif de la SGDC est de fournir la couche de présentation des thèmes Canada.ca et intranet.canada.ca aux actifs Web.",
+        link: 'https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html',
+        link_fr: 'https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html'
     },
     {
         label: 'CED',
@@ -424,6 +435,11 @@ var data = [{
     {
         label: 'CTA',
         value: 'Canadian Transportation Agency'
+    },
+    {
+        label: 'CVE',
+        value: 'Common Vulnerabilities and Exposures',
+        explanation: "CVE, short for Common Vulnerabilities and Exposures, is a list of publicly disclosed computer security flaws. When someone refers to a CVE, they mean a security flaw that's been assigned a CVE ID number. Security advisories issued by vendors and researchers almost always mention at least one CVE ID"
     },
     {
         label: 'DC',
