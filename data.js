@@ -1046,7 +1046,13 @@ var data = [
     },
     {
         label: 'PMA',
-        value: 'Performance Management Agreement'
+        label_fr:'EGR',
+        value_fr:'Entente de Gestion du Rendement',
+        value: 'Performance Management Agreement',
+        explanation: "Performance management is an ongoing process that involves planning, developing, coaching, providing feedback and evaluating employee performance.",
+        link: 'https://www.canada.ca/en/treasury-board-secretariat/services/performance-talent-management/performance-management-program-employees.html',
+        link_fr:'https://www.canada.ca/fr/secretariat-conseil-tresor/services/gestion-rendement-talents/programme-gestion-rendement-employes.html',
+        explantion_fr: "La gestion du rendement est un processus continu de planification, de perfectionnement, d’encadrement, de rétroaction et d’évaluation se rapportant au rendement de l’employé."
     },
     {
         label: 'PMO',
