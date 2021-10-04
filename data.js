@@ -98,6 +98,11 @@ var data = [
         value_fr: 'Banque de développement du Canada'
     },
     {
+        label: 'BCP',
+        value: 'Business Continuity Plan',
+        explanation: 'A business continuity plan is a document that outlines how a business will continue operating during an unplanned disruption in service'
+    },
+    {
         label: 'Biphobia',
         explanation: "The fear, hatred, or aversion of people who are attracted to more than one gender."
     },
