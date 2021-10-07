@@ -624,6 +624,11 @@ var data = [
         explanation: "The Global Case Management System (GCMS) is Citizenship and Immigration Canada’s (CIC’s) single, integrated and worldwide system used internally to process applications for citizenship and immigration services."
     },
     {
+        label: 'GC-VATS',
+        value: 'Government of Canada Vaccine Attestation Tracking System',
+        explanation: "The Government of Canada Vaccine Attestation Tracking System (GC-VATS) is an application for use by departments and agencies in the Core Public Administration including the RCMP."
+    },
+    {
         label: 'GCWiki',
         explanation: 'The GCwiki is a public wiki hosted by the Government of Canada to facilitate collaboration and knowledge sharing.',
         link: "https://wiki.gccollab.ca/"
@@ -721,6 +726,14 @@ var data = [
         label: 'IITB',
         value: 'Innovation Information and Technology Branch',
         explanation: 'IT arm of ESDC'
+    },
+    {
+        label: 'IMTD',
+        value: 'Information Management and Technology Directorate',
+        explanation: "The Information Management and Technology Directorate (IMTD) of the Secretariat's Corporate Services Sector partners with Shared Services Canada (SSC) to manage the Secretariat's information infrastructure and networks. IMTD and SSC also support more than 140 applications and databases, most of which contain information resources of business value.",
+        label_fr: 'DGIT',
+        value_fr: "Direction de la gestion de l'information et de la technologie",
+        explanation_fr: "La Direction de la gestion de l'information et de la technologie (DGIT) du Secteur des services intégrés assure la gestion des infrastructures et des réseaux du Secrétariat en partenariat avec Services partagés Canada (SPC). La DGIT et SPC prennent également en charge le fonctionnement de plus de 140 applications et bases de données, dont la plupart contiennent des ressources documentaires ayant une valeur opérationnelle."
     },
     {
         label: 'INAC',
