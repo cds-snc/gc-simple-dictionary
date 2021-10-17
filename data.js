@@ -748,8 +748,10 @@ var data = [
         explanation: "An umbrella term to capture various types of biological sex differentiation. Intersex people have variations in their sex characteristics, such as sex chromosomes, internal reproductive organs, genitalia, and/or secondary sex characteristics (e.g. muscle mass, breasts) that fall outside of what is typically categorized as male or female."
     },
     {
-        label: 'Investments',
-        value: 'Public Sector Pension Investment Board PSP'
+        label: 'PSP Investments',
+        label_fr: 'Investissements PSP',
+        value: 'Public Sector Pension Investment Board',
+        value_fr: "L’Office d’investissement des régimes de pensions du secteur public"
     },
     {
         label: 'IRB',
@@ -971,8 +973,10 @@ var data = [
         value: 'objective and key result'
     },
     {
-        label: 'Ontario',
-        value: 'Federal Economic Development Agency for Southern Ontario   FedDev'
+        label: 'FedDev Ontario',
+        label_fr: 'FedDev Ontario',
+        value: 'Federal Economic Development Agency for Southern Ontario',
+        value_fr: "L'Agence fédérale de développement économique pour le Sud de l'Ontario"
     },
     {
         label: 'OPC',
