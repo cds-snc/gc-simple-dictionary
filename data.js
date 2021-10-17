@@ -154,19 +154,27 @@ var data = [
     },
     {
         label: 'CART',
-        value: 'Canada Agricultural Review Tribunal'
+        label_fr: 'CRAC',
+        value: 'Canada Agricultural Review Tribunal',
+        value_fr: 'Commission de révision agricole du Canada'
     },
     {
         label: 'CAS',
-        value: 'Courts Administration Service'
+        label_fr: 'SATJ',
+        value: 'Courts Administration Service',
+        value_fr: 'Service administratif des tribunaux judiciaires'
     },
     {
         label: 'CATSA',
-        value: 'Canadian Air Transport Security Authority'
+        label_fr: 'ACSTA',
+        value: 'Canadian Air Transport Security Authority',
+        value_fr: 'Administration canadienne de la sûreté du transport aérien'
     },
     {
         label: 'CB',
-        value: 'Copyright Board Canada'
+        label_fr: 'CDA',
+        value: 'Copyright Board Canada',
+        value_fr: "Commission du droit d'auteur Canada"
     },
     {
         label: 'CBC',
@@ -174,7 +182,9 @@ var data = [
     },
     {
         label: 'CBSA',
-        value: 'Canada Border Services Agency'
+        label_fr: 'ASFC',
+        value: 'Canada Border Services Agency',
+        value_fr: 'Agence des services frontaliers du Canada'
     },
     {
         label: 'CBSO',
@@ -182,7 +192,9 @@ var data = [
     },
     {
         label: 'CCC',
-        value: 'Canadian Commercial Corporation'
+        label_fr: 'CCC',
+        value: 'Canadian Commercial Corporation',
+        value_fr: 'Corporation commerciale canadienne'
     },
     {
         label: 'CCCS',
@@ -190,15 +202,21 @@ var data = [
     },
     {
         label: 'CCG',
-        value: 'Canadian Coast Guard'
+        label_fr: 'GCC',
+        value: 'Canadian Coast Guard',
+        value_fr: 'Garde côtière canadienne'
     },
     {
         label: 'CCI',
-        value: 'Canadian Conservation Institute'
+        label_fr: 'ICC',
+        value: 'Canadian Conservation Institute',
+        value_fr: 'Institut canadien de conservation'
     },
     {
         label: 'CCOHS',
-        value: 'Canadian Centre for Occupational Health and Safety'
+        label_fr: 'CCHST',
+        value: 'Canadian Centre for Occupational Health and Safety',
+        value_fr: "Centre canadien d'hygiène et de sécurité au travail"
     },
     {
         label: 'CDC',
@@ -221,7 +239,7 @@ var data = [
         explanation_fr: 'Le Service numérique canadien (SNC) fait équipe avec des ministères et des organismes fédéraux afin d’axer les services gouvernementaux sur les besoins des gens.',
         link: 'https://digital.canada.ca',
         link_fr: 'https://numerique.canada.ca/'
-    }, 
+    },
     {
         label: 'CDTS',
         label_fr: 'SGDC',
@@ -748,8 +766,10 @@ var data = [
         explanation: "An umbrella term to capture various types of biological sex differentiation. Intersex people have variations in their sex characteristics, such as sex chromosomes, internal reproductive organs, genitalia, and/or secondary sex characteristics (e.g. muscle mass, breasts) that fall outside of what is typically categorized as male or female."
     },
     {
-        label: 'Investments',
-        value: 'Public Sector Pension Investment Board	PSP'
+        label: 'PSP Investments',
+        label_fr: 'Investissements PSP',
+        value: 'Public Sector Pension Investment Board',
+        value_fr: "L’Office d’investissement des régimes de pensions du secteur public"
     },
     {
         label: 'IRB',
@@ -971,8 +991,10 @@ var data = [
         value: 'objective and key result'
     },
     {
-        label: 'Ontario',
-        value: 'Federal Economic Development Agency for Southern Ontario	FedDev'
+        label: 'FedDev Ontario',
+        label_fr: 'FedDev Ontario',
+        value: 'Federal Economic Development Agency for Southern Ontario',
+        value_fr: "L'Agence fédérale de développement économique pour le Sud de l'Ontario"
     },
     {
         label: 'OPC',
