@@ -129,6 +129,10 @@ var data = [
         value_fr: 'Armée canadienne'
     },
     {
+        label: 'CACEA',
+        value: 'Canadian Association of Consulting Energy Advisors'
+    },
+    {
         label: 'CAF',
         label_fr: 'FAC',
         value: 'Canadian Armed Forces',
@@ -175,6 +179,10 @@ var data = [
         label_fr: 'CDA',
         value: 'Copyright Board Canada',
         value_fr: "Commission du droit d'auteur Canada"
+    },
+    {
+        label: 'CBAT',
+        value: 'Cost Benefit Analysis Tool'
     },
     {
         label: 'CBC',
@@ -718,6 +726,10 @@ var data = [
     {
         label: 'HSMBC',
         value: 'Historic Sites and Monuments Board of Canada'
+    },
+    {
+        label: 'HTAP',
+        value: 'Housing Technology Assessment Platform'
     },
     {
         label: 'IAAC',
