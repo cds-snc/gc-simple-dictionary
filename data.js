@@ -640,9 +640,19 @@ var data = [
         value: 'Single Sign On attempt by the Office of the CIO within TBS'
     },
     {
+        label: 'GCintranet',
+        value: "An authoritative, central communications channel to reach all public servants.",
+        link: "http://intranet.canada.ca/"
+    },
+    {
         label: 'GCMessage',
         value: 'the instant messaging beta product from the Digital Enablement team at TBS',
         link: "https://message.gccollab.ca/"
+    },
+    {
+        label: 'GCpedia',
+        value: "A GCTools product; knowledge sharing tool, designed to facilitate collaboration, co-creation of information and providing access to subject matter experts across all of government.",
+        link: "https://gcpedia.gc.ca/"
     },
     {
         label: 'GCMS',
