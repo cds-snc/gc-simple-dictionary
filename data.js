@@ -1090,7 +1090,13 @@ var data = [
     {
         label: 'PHAC',
         value: 'Public Health Agency of Canada',
-        explanation: "he Public Health Agency of Canada empowers Canadians to improve their health. In partnership with others, its activities focus on preventing disease and injuries, promoting good physical and mental health, and providing information to support informed decision making. It values scientific excellence and provides national leadership in response to public health threats."
+        explanation: "The Public Health Agency of Canada empowers Canadians to improve their health. In partnership with others, its activities focus on preventing disease and injuries, promoting good physical and mental health, and providing information to support informed decision making. It values scientific excellence and provides national leadership in response to public health threats.",
+        link:'https://www.canada.ca/en/public-health.html',
+        link_fr:'https://www.canada.ca/fr/sante-publique.html',
+        label_fr: 'ASPC',
+        value_fr: 'Agence de la santé publique du Canada',
+        explanation_fr: "L’Agence de la santé publique du Canada fait partie du portefeuille fédéral de la santé. Ses activités sont axées sur la prévention des maladies et des blessures, la réponse aux menaces pour la santé publique, la promotion d’une bonne santé physique et mentale, et la transmission de renseignements qui favorisent la prise de décisions éclairées."
+    
     },
     {
         label: 'PIA',
