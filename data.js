@@ -1177,11 +1177,20 @@ var data = [
     },
     {
         label: 'PSPC',
+        label_fr:'SPAC',
+        value_fr: 'Services publics et Approvisionnement Canada',
         value: 'Public Services and Procurement Canada'
     },
     {
         label: 'PSPM',
         value: 'Public Service Performance Management'
+    },
+    {
+        label: 'PWGSC',
+        label_fr: 'TPSGC',
+        value_fr: 'Travaux publics et Services gouvernementaux Canada',
+        value: "Public Works and Government Services Canada",
+        explanation: "Founded in 1841 and originally known as The Board of Works, the department became Public Services and Procurement Canada (PSPC) in 2015 formerly known as Public Works and Government Services Canada (PWGSC) through the amalgamation of the former Supply and Services Canada, Public Works Canada, Government Telecommunications Agency (Communications Canada), and the Translation Bureau (Secretary of State of Canada). However, as the title of the department has not been legally modified, the title of Public Works and Government Services Canada (PWGSC) and its acronym are still in use."
     },
     {
         label: 'QP',
