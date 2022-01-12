@@ -1103,6 +1103,12 @@ var data = [
         value: 'privacy impact assessments'
     },
     {
+        label: 'PIP',
+        value: 'Performance Information Profile',
+        label_fr: "PIR",
+        value_fr: "profil d'information sur le rendement "
+    },
+    {
         label: 'PIPEDA',
         value: 'Personal Information Protection and Electronic Documents Act',
         label_fr: "LPRPDE",
