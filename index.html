@@ -337,7 +337,7 @@
       if(myParam) {
         var s = document.getElementById("userinput");
         s.value = myParam;
-        results = data.filter((n) => n.label.toLowerCase().startsWith(myParam.toLowerCase()));
+        results = data.filter((n) => n.label.toLowerCase() == myParam.toLowerCase());
         if(results.length == 1){
           item = results[0];
           _explanation = item.explanation ? item.explanation : "";
