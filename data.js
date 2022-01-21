@@ -1115,6 +1115,14 @@ var data = [
         value_fr: "Loi sur la protection des renseignements personnels et les documents électroniques"
     },
     {
+        label: 'PIPSC',
+        value: 'Professional Institute of the Public Service of Canada',
+        explanation:"The Professional Institute of the Public Service of Canada (PIPSC) was founded in 1920.  With over 60,000 members, the Institute is the largest union in Canada representing scientists and professionals employed at the federal and some provincial and territorial levels of government.",
+        label_fr: "IPFPC",
+        value_fr: "Institut professionnel de la fonction publique du Canada",
+        explanation_fr:"L'Institut professionnel de la fonction publique du Canada a été fondé en 1920. Comptant plus de 60 000 membres, l'Institut est le plus grand syndicat au Canada représentant les scientifiques et professionnels oeuvrant au sein de la fonction publique fédérale et de certaines administrations provinciales et territoriales."
+    },
+    {
         label: 'PM',
         value: 'Prime Minister'
     },
