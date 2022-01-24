@@ -336,6 +336,10 @@ var data = [
         value: 'Centre for Internet Security'
     },
     {
+        label: 'CISSP',
+        value: 'Certified Information Systems Security Professional'
+    },
+    {
         label: 'Cisgender',
         explanation: "A person who identifies with the gender they were assigned at birth."
     },
@@ -382,6 +386,10 @@ var data = [
     {
         label: 'COBU',
         value: 'Competition Bureau Canada'
+    },
+    {
+        label: 'COMSEC',
+        value: 'Communications Security'
     },
     {
         label: 'CP',
