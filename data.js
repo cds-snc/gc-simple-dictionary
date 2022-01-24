@@ -517,7 +517,11 @@ var data = [
     },
     {
         label: 'DTO',
-        value: 'Digital Transformation Office'
+        value: 'Digital Transformation Office',
+        explanation: "The Digital Transformation Office (DTO) is part of the Treasury Board of Canada Secretariat’s Strategic Communications and Ministerial Affairs sector. At DTO, we are communications professionals with expertise in content and interaction design, user research and plain language writing.",
+        label_fr: 'BTN',
+        value_fr: 'Bureau de la transformation numérique',
+        explanation_fr:"Le Bureau de la transformation numérique (BTN) fait partie des Communications stratégiques et affaires ministérielles du Secrétariat du Conseil du Trésor du Canada. En tant que professionnels des communications au BTN, nous avons une expertise en conception de contenu et d’interactions, en recherche sur les utilisateurs et en rédaction en langage clair."
     },
     {
         label: 'EARB',
