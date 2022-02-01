@@ -800,10 +800,12 @@ var data = [
         explanation: "An umbrella term to capture various types of biological sex differentiation. Intersex people have variations in their sex characteristics, such as sex chromosomes, internal reproductive organs, genitalia, and/or secondary sex characteristics (e.g. muscle mass, breasts) that fall outside of what is typically categorized as male or female."
     },
     {
-        label: 'PSP Investments',
-        label_fr: 'Investissements PSP',
-        value: 'Public Sector Pension Investment Board',
-        value_fr: "L’Office d’investissement des régimes de pensions du secteur public"
+        label: 'IOG',
+        value: 'Institute on Governance',
+        link: "https://iog.ca/",
+        label_fr: 'IOG',
+        value_fr: "Institut sur la gouvernance",
+        explanation:"The IOG is a Canadian think-tank focused on developing better governance in the public sphere both in Canada and internationally."
     },
     {
         label: 'IRB',
@@ -1206,6 +1208,12 @@ var data = [
         label_fr:'SPAC',
         value_fr: 'Services publics et Approvisionnement Canada',
         value: 'Public Services and Procurement Canada'
+    },
+    {
+        label: 'PSP Investments',
+        label_fr: 'Investissements PSP',
+        value: 'Public Sector Pension Investment Board',
+        value_fr: "L’Office d’investissement des régimes de pensions du secteur public"
     },
     {
         label: 'PSPM',
