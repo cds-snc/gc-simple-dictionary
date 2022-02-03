@@ -73,7 +73,10 @@ var data = [
     {
         label: 'ATIP',
         value: 'Access to Information and Privacy',
-        explanation: 'Canadians can request internal records and communications from the government (i.e. ATIP requests). Recent ones have included records of Slack and email chats around COVID Alert.'
+        label_fr:'AIPRP',
+        value_fr:'accès à l’information et protection des renseignements personnels',
+        explanation: 'Canadians can request internal records and communications from the government (i.e. ATIP requests).',
+        link:'https://atip-aiprp.apps.gc.ca/atip/welcome.do'
     },
     {
         label: 'ATO',
