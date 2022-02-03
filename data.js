@@ -1337,6 +1337,14 @@ var data = [
         value: 'Treasury Board Secretary’s Office'
     },
     {
+        label: 'SOA',
+        value: 'Special Operating Agency',
+        explanation:"SOAs are operational units within a department or agency, which have some management flexibility, independence and separate accountability.",
+        label_fr: 'OSS',
+        value_fr:'Organisme de service spécial',
+        explanation_fr:"OSS  sont des unités opérationnelles à l’intérieur d’un ministère ou d’un organisme qui disposent d’une certaine latitude de gestion, d’une indépendance et d’une responsabilité distincte."
+    },
+    {
         label: 'SOAR',
         value: 'Statement of Acceptable Risk',
         explanation: "This documents all the risks identified during a risk threat assessment, their ratings and planned treatment."
