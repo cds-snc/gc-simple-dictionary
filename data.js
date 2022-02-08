@@ -71,6 +71,14 @@ var data = [
         value: 'Access to Information'
     },
     {
+        label: 'ATIA',
+        value: 'Access to Information Act',
+        explanation: "The Access to Information Act (ATIA) provides Canadian citizens, permanent residents, and individuals and corporations present in Canada a right to access records under the control of government institutions, in accordance with the principles that government information should be available to the public",
+        label_fr: "LAI",
+        value_fr: "Loi sur l’accès à l’information",
+        explanation_fr:"La Loi sur l’accès à l’information (LAI) confère aux citoyens canadiens, aux résidents permanents, aux particuliers et aux sociétés présents au Canada le droit d’accéder aux documents relevant des institutions fédérales, conformément aux principes selon lesquels les renseignements gouvernementaux devraient être accessibles au public"
+    },
+    {
         label: 'ATIP',
         value: 'Access to Information and Privacy',
         label_fr:'AIPRP',
