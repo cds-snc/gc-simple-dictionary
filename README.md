@@ -16,7 +16,7 @@ Modifier ce fichier https://github.com/cds-snc/gc-simple-dictionary/edit/main/da
 
 ## Other source of definitions / Autres source de définitions
 
-- [The Government of Canada’s terminology and linguistic data bank.]https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng
+- [The Government of Canada’s terminology and linguistic data bank.](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng)
 - [Government of Canada Departments and Agencies](https://www.canada.ca/en/government/dept.html)
 - [CDS Official Lexicon](https://docs.google.com/spreadsheets/d/16Xo5ROhRLjH1sxlFLd9Jz3R-x5oCx62rkQ1cvOBV3jE/edit#gid=2132377485)
 - [Treasury Board of Canada Secretariat - Glossary](https://www.tbs-sct.gc.ca/pol/glossary-lexique-eng.aspx)
