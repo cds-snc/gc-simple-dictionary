@@ -519,6 +519,12 @@ var data = [
         link: "https://www.canada.ca/en/department-national-defence.html"
     },
     {
+        label: 'DOCS',
+        value: 'Designated Official for Cyber Security',
+        explanation: "The Designated Official for Cyber Security (DOCS) is responsible for providing department-wide strategic leadership, coordination and oversight on cyber security, in collaboration with the departmental CIO and Chief Security Officer (CSO), as appropriate.",
+        link: "https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2"
+    },
+    {
         label: 'DRDC',
         value: 'Defence Research and Development Canada'
     },
