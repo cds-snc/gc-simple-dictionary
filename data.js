@@ -76,15 +76,15 @@ var data = [
         explanation: "The Access to Information Act (ATIA) provides Canadian citizens, permanent residents, and individuals and corporations present in Canada a right to access records under the control of government institutions, in accordance with the principles that government information should be available to the public",
         label_fr: "LAI",
         value_fr: "Loi sur l’accès à l’information",
-        explanation_fr:"La Loi sur l’accès à l’information (LAI) confère aux citoyens canadiens, aux résidents permanents, aux particuliers et aux sociétés présents au Canada le droit d’accéder aux documents relevant des institutions fédérales, conformément aux principes selon lesquels les renseignements gouvernementaux devraient être accessibles au public"
+        explanation_fr: "La Loi sur l’accès à l’information (LAI) confère aux citoyens canadiens, aux résidents permanents, aux particuliers et aux sociétés présents au Canada le droit d’accéder aux documents relevant des institutions fédérales, conformément aux principes selon lesquels les renseignements gouvernementaux devraient être accessibles au public"
     },
     {
         label: 'ATIP',
         value: 'Access to Information and Privacy',
-        label_fr:'AIPRP',
-        value_fr:'accès à l’information et protection des renseignements personnels',
+        label_fr: 'AIPRP',
+        value_fr: 'accès à l’information et protection des renseignements personnels',
         explanation: 'Canadians can request internal records and communications from the government (i.e. ATIP requests).',
-        link:'https://atip-aiprp.apps.gc.ca/atip/welcome.do'
+        link: 'https://atip-aiprp.apps.gc.ca/atip/welcome.do'
     },
     {
         label: 'ATO',
@@ -538,7 +538,7 @@ var data = [
         explanation: "The Digital Transformation Office (DTO) is part of the Treasury Board of Canada Secretariat’s Strategic Communications and Ministerial Affairs sector. At DTO, we are communications professionals with expertise in content and interaction design, user research and plain language writing.",
         label_fr: 'BTN',
         value_fr: 'Bureau de la transformation numérique',
-        explanation_fr:"Le Bureau de la transformation numérique (BTN) fait partie des Communications stratégiques et affaires ministérielles du Secrétariat du Conseil du Trésor du Canada. En tant que professionnels des communications au BTN, nous avons une expertise en conception de contenu et d’interactions, en recherche sur les utilisateurs et en rédaction en langage clair."
+        explanation_fr: "Le Bureau de la transformation numérique (BTN) fait partie des Communications stratégiques et affaires ministérielles du Secrétariat du Conseil du Trésor du Canada. En tant que professionnels des communications au BTN, nous avons une expertise en conception de contenu et d’interactions, en recherche sur les utilisateurs et en rédaction en langage clair."
     },
     {
         label: 'EARB',
@@ -597,6 +597,12 @@ var data = [
     {
         label: 'FCC',
         value: 'Farm Credit Canada'
+    },
+    {
+        label: 'FedDev Ontario',
+        label_fr: 'FedDev Ontario',
+        value: 'Federal Economic Development Agency for Southern Ontario',
+        value_fr: "L'Agence fédérale de développement économique pour le Sud de l'Ontario"
     },
     {
         label: 'FES',
@@ -822,7 +828,7 @@ var data = [
         link: "https://iog.ca/",
         label_fr: 'IOG',
         value_fr: "Institut sur la gouvernance",
-        explanation:"The IOG is a Canadian think-tank focused on developing better governance in the public sphere both in Canada and internationally."
+        explanation: "The IOG is a Canadian think-tank focused on developing better governance in the public sphere both in Canada and internationally."
     },
     {
         label: 'IRB',
@@ -1044,10 +1050,14 @@ var data = [
         value: 'objective and key result'
     },
     {
-        label: 'FedDev Ontario',
-        label_fr: 'FedDev Ontario',
-        value: 'Federal Economic Development Agency for Southern Ontario',
-        value_fr: "L'Agence fédérale de développement économique pour le Sud de l'Ontario"
+        label: 'OLA',
+        value: 'Official Languages Act',
+        label_fr: 'LLO',
+        value_fr: 'Loi sur les langues officielles',
+        link_fr: "https://laws-lois.justice.gc.ca/fra/lois/o-3.01/",
+        link: "https://laws-lois.justice.gc.ca/eng/acts/o-3.01/",
+        explanation_fr: "La LLO réaffirme l'égalité de statut du français et de l'anglais à titre de langues officielles du Canada et indique que les deux langues officielles ont des droits et des privilèges égaux quant à leur usage dans les institutions.",
+        explanation: "The OLA reaffirms the equality of status of English and French as the official languages of Canada and establishes equal rights and privileges as to their use in institutions."
     },
     {
         label: 'OPC',
@@ -1122,12 +1132,12 @@ var data = [
         label: 'PHAC',
         value: 'Public Health Agency of Canada',
         explanation: "The Public Health Agency of Canada empowers Canadians to improve their health. In partnership with others, its activities focus on preventing disease and injuries, promoting good physical and mental health, and providing information to support informed decision making. It values scientific excellence and provides national leadership in response to public health threats.",
-        link:'https://www.canada.ca/en/public-health.html',
-        link_fr:'https://www.canada.ca/fr/sante-publique.html',
+        link: 'https://www.canada.ca/en/public-health.html',
+        link_fr: 'https://www.canada.ca/fr/sante-publique.html',
         label_fr: 'ASPC',
         value_fr: 'Agence de la santé publique du Canada',
         explanation_fr: "L’Agence de la santé publique du Canada fait partie du portefeuille fédéral de la santé. Ses activités sont axées sur la prévention des maladies et des blessures, la réponse aux menaces pour la santé publique, la promotion d’une bonne santé physique et mentale, et la transmission de renseignements qui favorisent la prise de décisions éclairées."
-    
+
     },
     {
         label: 'PIA',
@@ -1148,10 +1158,10 @@ var data = [
     {
         label: 'PIPSC',
         value: 'Professional Institute of the Public Service of Canada',
-        explanation:"The Professional Institute of the Public Service of Canada (PIPSC) was founded in 1920.  With over 60,000 members, the Institute is the largest union in Canada representing scientists and professionals employed at the federal and some provincial and territorial levels of government.",
+        explanation: "The Professional Institute of the Public Service of Canada (PIPSC) was founded in 1920.  With over 60,000 members, the Institute is the largest union in Canada representing scientists and professionals employed at the federal and some provincial and territorial levels of government.",
         label_fr: "IPFPC",
         value_fr: "Institut professionnel de la fonction publique du Canada",
-        explanation_fr:"L'Institut professionnel de la fonction publique du Canada a été fondé en 1920. Comptant plus de 60 000 membres, l'Institut est le plus grand syndicat au Canada représentant les scientifiques et professionnels oeuvrant au sein de la fonction publique fédérale et de certaines administrations provinciales et territoriales."
+        explanation_fr: "L'Institut professionnel de la fonction publique du Canada a été fondé en 1920. Comptant plus de 60 000 membres, l'Institut est le plus grand syndicat au Canada représentant les scientifiques et professionnels oeuvrant au sein de la fonction publique fédérale et de certaines administrations provinciales et territoriales."
     },
     {
         label: 'PM',
@@ -1159,12 +1169,12 @@ var data = [
     },
     {
         label: 'PMA',
-        label_fr:'EGR',
-        value_fr:'Entente de Gestion du Rendement',
+        label_fr: 'EGR',
+        value_fr: 'Entente de Gestion du Rendement',
         value: 'Performance Management Agreement',
         explanation: "Performance management is an ongoing process that involves planning, developing, coaching, providing feedback and evaluating employee performance.",
         link: 'https://www.canada.ca/en/treasury-board-secretariat/services/performance-talent-management/performance-management-program-employees.html',
-        link_fr:'https://www.canada.ca/fr/secretariat-conseil-tresor/services/gestion-rendement-talents/programme-gestion-rendement-employes.html',
+        link_fr: 'https://www.canada.ca/fr/secretariat-conseil-tresor/services/gestion-rendement-talents/programme-gestion-rendement-employes.html',
         explantion_fr: "La gestion du rendement est un processus continu de planification, de perfectionnement, d’encadrement, de rétroaction et d’évaluation se rapportant au rendement de l’employé."
     },
     {
@@ -1222,7 +1232,7 @@ var data = [
     },
     {
         label: 'PSPC',
-        label_fr:'SPAC',
+        label_fr: 'SPAC',
         value_fr: 'Services publics et Approvisionnement Canada',
         value: 'Public Services and Procurement Canada'
     },
@@ -1353,10 +1363,10 @@ var data = [
     {
         label: 'SOA',
         value: 'Special Operating Agency',
-        explanation:"SOAs are operational units within a department or agency, which have some management flexibility, independence and separate accountability.",
+        explanation: "SOAs are operational units within a department or agency, which have some management flexibility, independence and separate accountability.",
         label_fr: 'OSS',
-        value_fr:'Organisme de service spécial',
-        explanation_fr:"OSS  sont des unités opérationnelles à l’intérieur d’un ministère ou d’un organisme qui disposent d’une certaine latitude de gestion, d’une indépendance et d’une responsabilité distincte."
+        value_fr: 'Organisme de service spécial',
+        explanation_fr: "OSS  sont des unités opérationnelles à l’intérieur d’un ministère ou d’un organisme qui disposent d’une certaine latitude de gestion, d’une indépendance et d’une responsabilité distincte."
     },
     {
         label: 'SOAR',
