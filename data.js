@@ -476,7 +476,14 @@ var data = [
     },
     {
         label: 'CSPS',
-        value: 'Canada School of Public Service'
+        value: 'Canada School of Public Service',
+        link: "https://www.csps-efpc.gc.ca/index-eng.aspx",
+        explanation: "The Canada School of Public Service leads the government's enterprise-wide approach to learning by providing a common, standardized curriculum that supports public servants through key career transitions, ensuring that they are equipped to serve Canadians with excellence.",
+        label_fr:'EFPC',
+        value_fr:'École de la fonction publique du Canada',
+        link_fr:'https://www.csps-efpc.gc.ca/index-fra.aspx',
+        explanation_fr:"L'École de la fonction publique du Canada dirige l'approche pangouvernementale en matière d'apprentissage en offrant un programme de cours commun normalisé qui appuie les fonctionnaires aux points tournants de leur carrière, afin d'assurer qu'ils sont outillés pour servir les Canadiens en respectant les plus hauts critères d'excellence."
+        
     },
     {
         label: 'CSS',
