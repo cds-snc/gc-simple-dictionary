@@ -998,7 +998,13 @@ var data = [
     },
     {
         label: 'NSICOP',
-        value: 'Secretariat of the National Security and Intelligence Committee of Parliamentarians'
+        value: 'Secretariat of the National Security and Intelligence Committee of Parliamentarians',
+        explanation: "The National Security and Intelligence Committee of Parliamentarians has a broad mandate to review Canada’s national security and intelligence organizations.",
+        link:"https://www.nsicop-cpsnr.ca/index-en.html",
+        label_fr:"CPSNR",
+        value_fr:"Le Comité des parlementaires sur la sécurité nationale et le renseignement",
+        explanation_fr:"Le Comité des parlementaires sur la sécurité nationale et le renseignement a un mandat vaste afin d’examiner les organisations de sécurité nationale et du renseignement du Canada.",
+        link_fr:"https://www.nsicop-cpsnr.ca/index-fr.html"
     },
     {
         label: 'NSIRA',
