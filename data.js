@@ -1333,7 +1333,13 @@ var data = [
     },
     {
         label: 'SCMA',
-        value: 'Strategic Communications and Ministerial Affairs'
+        value: 'Strategic Communications and Ministerial Affairs',
+        link:"https://www.canada.ca/en/treasury-board-secretariat/corporate/organization.html#scma",
+        explanation:"Among other things, SCMA is also responsible for developing internal and external communications products and providing services in consultation with subject matter experts (e.g., communications strategies and plans, speeches and speaking notes, scenario notes for ministerial events, media advisories, news releases, questions and answers, and news conferences).",
+        label_fr:"CSAM",
+        value_fr:"Communications stratégiques et affaires ministérielles",
+        explanation_fr:"CSMA est aussi chargé d’élaborer des produits de communication interne et externe et d’assurer des services en consultation avec des spécialistes en la matière (plans et stratégies de communication; discours et notes d’allocution; notes de scénario pour des activités ministérielles; avis aux médias et communiqués de presse; questions et réponses, conférences de presse, etc.).",
+        link_fr:"https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/organisation.html#org12"
     },
     {
         label: 'SCT',
