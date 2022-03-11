@@ -324,7 +324,9 @@ var data = [
     },
     {
         label: 'CIO',
-        value: 'Chief Information Officer'
+        value: 'Chief Information Officer',
+        label_fr: 'DPI',
+        value_fr: "Dirigeant.e principal.e de l'information"
     },
     {
         label: 'CIPO',
@@ -529,7 +531,9 @@ var data = [
         label: 'DOCS',
         value: 'Designated Official for Cyber Security',
         explanation: "The Designated Official for Cyber Security (DOCS) is responsible for providing department-wide strategic leadership, coordination and oversight on cyber security, in collaboration with the departmental CIO and Chief Security Officer (CSO), as appropriate.",
-        link: "https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2"
+        link: "https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2",
+        label_fr: 'ADCS',
+        value_fr: "Agents désignés pour la cybersécurité"
     },
     {
         label: 'DRDC',
