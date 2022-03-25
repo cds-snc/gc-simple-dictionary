@@ -622,6 +622,12 @@ var data = [
         link: "https://www.canada.ca/en/department-finance/services/publications/fall-economic-statement.html"
     },
     {
+        label: 'FERP',
+        value: 'Federal Emergency Response Plan',
+        explanation: 'The FERP is designed to harmonize federal emergency response efforts with those of the provinces/territorial governments, non-governmental organizations, and the private sector.',
+        link: 'https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgnc-rspns-pln/index-en.aspx'
+    },
+    {
         label: 'FFMC',
         value: 'Freshwater Fish Marketing Corporation'
     },
@@ -812,6 +818,11 @@ var data = [
         label: 'IITB',
         value: 'Innovation Information and Technology Branch',
         explanation: 'IT arm of ESDC'
+    },
+    {
+        label: 'IMOC',
+        value: 'Incident Management and Operational Coordination',
+        explanation: 'Incident Management and Operational Coordination (IMOC) coordinates all operational phases of event management for cyber security events that have impacted or could impact the GC'
     },
     {
         label: 'IMTD',
