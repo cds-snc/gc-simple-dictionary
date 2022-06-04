@@ -1260,6 +1260,17 @@ var data = [
         value: 'Public Servants Disclosure Protection Tribunal Canada'
     },
     {
+        label: 'PSEA',
+        value: 'Public Service Employment Act',
+        explanation: "The 2003 Public Service Employment Act (which came into force on December 31, 2005) emphasizes the values of merit, non-partisanship, fairness, access, transparency and representativeness.",
+        link:"https://laws-lois.justice.gc.ca/eng/acts/p-33.01/FullText.html",
+        label_fr: 'LEFP',
+        value_fr: "Loi sur l’emploi dans la fonction publique",
+        explanation_fr:"Loi concernant l’emploi dans la fonction publique",
+        link_fr:"https://laws-lois.justice.gc.ca/fra/lois/p-33.01/TexteComplet.html"
+        
+    },
+    {
         label: 'PSIC',
         value: 'Public Sector Integrity Commissioner of Canada (Office of the)'
     },
