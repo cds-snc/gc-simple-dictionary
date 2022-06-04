@@ -536,6 +536,11 @@ var data = [
         value_fr: "Agents désignés pour la cybersécurité"
     },
     {
+        label: 'DPAR',
+        value: 'Designated Political Activities Representative',
+        value_fr:"Représentants désignés en matière d'activités politiques"
+    },
+    {
         label: 'DRDC',
         value: 'Defence Research and Development Canada'
     },
