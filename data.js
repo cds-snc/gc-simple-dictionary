@@ -1300,7 +1300,9 @@ var data = [
     {
         label: 'SLA',
         value: 'Service Level Agreement',
-        value_fr: 'ANS: accord sur les niveaux de service' 
+        explanation: "A service-level agreement is a contract between a service provider and its customers that documents what services the provider will furnish and defines the service standards the provider is obligated to meet",
+        label_fr: 'ANS',
+        value_fr: 'Accord sur les niveaux de service' 
     },
     {
         label: 'SLSA',
