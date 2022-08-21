@@ -935,6 +935,10 @@ var data = [
         value: 'Langue des signes québécoise'
     },
     {
+        label: 'LSU',
+        value: 'Legal Service Unit'
+    },
+    {
         label: 'LPA',
         value: 'Laurentian Pilotage Authority Canada'
     },
@@ -1154,6 +1158,10 @@ var data = [
         value: 'Project Complexity and Risk Assessment',
         explanation: "Questionnaire for GC projects to assess project risks, such as strategic project, HR, project requirements, procurement, etc.",
         link: "https://www.canada.ca/en/treasury-board-secretariat/services/information-technology-project-management/project-management/project-complexity-risk-assessment-tool.html"
+    },
+    {
+        label: 'PDPD',
+        value: 'Privacy and Data Protection Division'
     },
     {
         label: 'PeopleSoft',
