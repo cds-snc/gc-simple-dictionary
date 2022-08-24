@@ -118,6 +118,11 @@ var data = [
         explanation: 'A business continuity plan is a document that outlines how a business will continue operating during an unplanned disruption in service'
     },
     {
+        label: 'BEET',
+        value: 'Building Emergency and Evacuation Teams',
+        link: 'https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32630&section=html'
+    },
+    {
         label: 'Biphobia',
         explanation: "The fear, hatred, or aversion of people who are attracted to more than one gender."
     },
