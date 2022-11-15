@@ -498,7 +498,13 @@ var data = [
     },
     {
         label: 'CSS',
-        value: 'Corporate Services Sector'
+        value: 'Corporate Services Sector',
+        explanation: "The Corporate Services Sector assists the Secretary of the Treasury Board in the internal administration of the Secretariat. The Corporate Services Sector provides support in the areas of financial management, security, information management and technology, facilities and materiel management. The Corporate Services Sector is composed of three directorates: Financial Management; Information Management and Technology; and Administration and Security. The three directorates provide internal corporate services to the Treasury Board Secretariat, and certain shared services to the Department of Finance, the Canada School of Public Service and Privy Council Office.",
+        link:"https://www.tbs-sct.canada.ca/tbs-sct/organization-organisation/csb-dsm-eng.asp",
+        label_fr:"SSM",
+        value_fr:"Secteur des services ministériels",
+        explanation_fr:"e Secteur des services ministériels appuie la secrétaire du Conseil du Trésor dans le cadre de l'administration interne du Secrétariat. Le Secteur des services ministériels fournit du soutien au ministère en ce qui touche la gestion financière, la sécurité, la gestion de l'information et la technologie de l'information, la gestion des installations et du matériel. Le secteur comprend trois directions : gestion financière, gestion de l'information et de la technologie, administration. Ces directions fournissent des services ministériels internes au Secrétariat du Conseil du Trésor ainsi que certains services communs au ministère des Finances Canada, à l\'École de la fonction publique du Canada et au Bureau du Conseil privé.",
+        link_fr:"https://www.tbs-sct.canada.ca/tbs-sct/organization-organisation/csb-dsm-fra.asp"
     },
     {
         label: 'CTA',
