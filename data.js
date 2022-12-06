@@ -607,7 +607,11 @@ var data = [
     },
     {
         label: 'ESDC',
-        value: 'Employment and Social Development Canada'
+        value: 'Employment and Social Development Canada',
+        explanation: 'Employment and Social Development Canada is a department of the Government of Canada responsible for social programs and the labour market at the federal level',
+        label_fr: 'EDSC',
+        value_fr: 'Emploi et Développement social Canada',
+        link_fr :'https://www.canada.ca/fr/emploi-developpement-social.html'
     },
     {
         label: 'FBCL',
