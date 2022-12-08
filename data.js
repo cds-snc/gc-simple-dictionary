@@ -665,7 +665,11 @@ var data = [
     },
     {
         label: 'FIP',
-        value: 'Federal Identity Program'
+        value: 'Federal Identity Program',
+        explanation: "The corporate identity of the Government of Canada is managed through the Federal Identity Program (FIP). A unified federal identity that is applied consistently across all departments ensures that the public can easily recognize the Government of Canada and its programs, services, facilities, assets, activities and uniformed officials. FIP supports the principle of government accountability by clearly identifying areas of federal responsibility and the allocation of public funds.",
+        label_fr: 'PFIM',
+        value_fr: "Programme fédéral de l’image de marque",
+        explanation_fr: "L’image de marque du gouvernement du Canada est administrée par l’intermédiaire du Programme fédéral de l’image de marque. L’utilisation d’une image de marque uniforme dans l’ensemble des ministères permet au public de reconnaître facilement les programmes, les services, les installations, les biens, les activités et les agents officiels du gouvernement du Canada. L’image de marque appuie le principe de responsabilisation du gouvernement en désignant clairement les secteurs de responsabilité fédérale et d’attribution des fonds publics."
     },
     {
         label: 'FJA',
