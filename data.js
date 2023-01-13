@@ -431,7 +431,8 @@ var data = [
     },
     {
         label: 'CPP',
-        value: 'Canada Pension Plan'
+        value: 'Canada Pension Plan',
+        explanation: "The Canada Pension Plan (CPP) retirement pension is a monthly, taxable benefit that replaces part of your income when you retire. If you qualify, you’ll receive the CPP retirement pension for the rest of your life."
     },
     {
         label: 'CPPIB',
@@ -1060,6 +1061,16 @@ var data = [
     {
         label: 'OAG',
         value: 'Auditor General of Canada (Office of the)'
+    },
+    {
+        label: 'OAS',
+        value: 'Old Age Security',
+        explanation: "The Old Age Security (OAS) pension is a monthly payment you can get if you are 65 and older. In some cases, Service Canada will be able to automatically enroll you for the OAS pension. In other cases, you will have to apply for the Old Age Security pension. Service Canada will inform you if you have been automatically enrolled.",
+        link:"https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html",
+        label_fr: 'SV',
+        value_fr:'Pension de la Sécurité de vieillesse',
+        explanation_fr:"La pension de la Sécurité de la vieillesse (SV) est un paiement mensuel que vous pouvez obtenir si vous avez 65 ans et plus. Dans certains cas, Service Canada pourra automatiquement vous inscrire à la pension de la SV. Dans d’autres cas, vous devrez présenter une demande de pension de la Sécurité de la vieillesse. Service Canada vous informera si vous avez été automatiquement inscrit.",
+        link_fr:"https://www.canada.ca/fr/services/prestations/pensionspubliques/rpc/securite-vieillesse.html"
     },
     {
         label: 'OCHRO',
