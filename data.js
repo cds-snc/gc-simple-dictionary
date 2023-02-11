@@ -131,6 +131,10 @@ var data = [
         explanation: "A person who is sexually and/or romantically attracted to two or more genders."
     },
     {
+        label: 'BOC',
+        value: 'Business Needs and Outcome Collaboration'
+    },
+    {
         label: 'BOEW',
         value: 'Boîte à outils de l’expérience Web',
         explanation: "Une bibliothèque de code primée pour construire des sites Web accessibles, faciles d'emploi, interopérables, optimisés pour les appareils mobiles et multilingues",
@@ -892,6 +896,10 @@ var data = [
     {
         label: 'IRPDA',
         value: 'Independent Review Panel for Defence Acquisition'
+    },
+    {
+        label: 'iSAMS',
+        value: 'Identity Services and Access Management Solution'
     },
     {
         label: 'ISC',
