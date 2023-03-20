@@ -502,13 +502,23 @@ var data = [
         
     },
     {
+        label: 'CSPV',
+        value: 'Cyber Security Procurement Vehicle',
+        explanation: "The Cyber Security Procurement Vehicle (CSPV) is the GC's agile procurement framework for acquiring the cyber security capabilities and technologies required to protect the Government of Canada's IT infrastructure.",
+        link:"https://gc-cloud-services.canada.ca/s/cloud-services-overview?language=en_US",
+        label_fr:"MAMC",
+        value_fr:"Mécanisme d’approvisionnement en matière de cybersécurité",
+        explanation_fr:"Le mécanisme d’approvisionnement en matière de cybersécurité du GC (MAMC) est le cadre d’approvisionnement agile pour acquérir les capacités et les technologies de cybersécurité nécessaires à la protection de l’infrastructure de TI du gouvernement du Canada. Le MAMC permet d’avoir accès à des technologies déjà acquises, et ce, rapidement, ou à de nouvelles possibilités d’approvisionnement pour répondre à vos besoins uniques en matière de cybersécurité.",
+        link_fr:"https://gc-cloud-services.canada.ca/s/cloud-services-overview?language=fr"
+    },
+    {
         label: 'CSS',
         value: 'Corporate Services Sector',
         explanation: "The Corporate Services Sector assists the Secretary of the Treasury Board in the internal administration of the Secretariat. The Corporate Services Sector provides support in the areas of financial management, security, information management and technology, facilities and materiel management. The Corporate Services Sector is composed of three directorates: Financial Management; Information Management and Technology; and Administration and Security. The three directorates provide internal corporate services to the Treasury Board Secretariat, and certain shared services to the Department of Finance, the Canada School of Public Service and Privy Council Office.",
         link:"https://www.tbs-sct.canada.ca/tbs-sct/organization-organisation/csb-dsm-eng.asp",
         label_fr:"SSM",
         value_fr:"Secteur des services ministériels",
-        explanation_fr:"e Secteur des services ministériels appuie la secrétaire du Conseil du Trésor dans le cadre de l'administration interne du Secrétariat. Le Secteur des services ministériels fournit du soutien au ministère en ce qui touche la gestion financière, la sécurité, la gestion de l'information et la technologie de l'information, la gestion des installations et du matériel. Le secteur comprend trois directions : gestion financière, gestion de l'information et de la technologie, administration. Ces directions fournissent des services ministériels internes au Secrétariat du Conseil du Trésor ainsi que certains services communs au ministère des Finances Canada, à l\'École de la fonction publique du Canada et au Bureau du Conseil privé.",
+        explanation_fr:"Secteur des services ministériels appuie la secrétaire du Conseil du Trésor dans le cadre de l'administration interne du Secrétariat. Le Secteur des services ministériels fournit du soutien au ministère en ce qui touche la gestion financière, la sécurité, la gestion de l'information et la technologie de l'information, la gestion des installations et du matériel. Le secteur comprend trois directions : gestion financière, gestion de l'information et de la technologie, administration. Ces directions fournissent des services ministériels internes au Secrétariat du Conseil du Trésor ainsi que certains services communs au ministère des Finances Canada, à l\'École de la fonction publique du Canada et au Bureau du Conseil privé.",
         link_fr:"https://www.tbs-sct.canada.ca/tbs-sct/organization-organisation/csb-dsm-fra.asp"
     },
     {
@@ -1041,6 +1051,10 @@ var data = [
         value: 'Northern Pipeline Agency Canada'
     },
     {
+        label: 'NPE',
+        value: 'Non Person Entity'
+    },
+    {
         label: 'NRC',
         value: 'National Research Council Canada'
     },
@@ -1165,6 +1179,16 @@ var data = [
     {
         label: 'OTO',
         value: 'Taxpayers Ombudsperson (Office of the)'
+    },
+    {
+        label: 'P2P',
+        value: 'Procure-to-Pay',
+        explanation: "System called Procure-to-Pay (P2P) to electronically manage procurement to payment processes"
+    },
+    {
+        label: 'PAM',
+        value: 'Privileged Access Management',
+        explanation: "Privileged access management (PAM) is an identity security solution that helps protect organizations against cyberthreats by monitoring, detecting, and preventing unauthorized privileged access to critical resources."
     },
     {
         label: 'Pansexual',
@@ -1406,6 +1430,12 @@ var data = [
         value: 'Secure Cloud Enablement and Defence',
         explanation: "Required for IaaS or if you need to have a direct connection between on-prem data centres and the cloud.",
         link: "https://www.canada.ca/en/shared-services/corporate/publications/2019-20-departmental-plan/supplementary-tables/status-report-secure-cloud-enablement-defence.html"
+    },
+    {
+        label: 'SCI',
+        value: 'Supply Chain Integrity',
+        explanation: "The purpose of the Supply Chain Integrity (SCI) process is to ensure that no untrusted equipment, software or services are procured and are used in the delivery and support of GC services.",
+        link: "https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070"
     },
     {
         label: 'SCIF',
