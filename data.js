@@ -908,7 +908,7 @@ var data = [
         value: 'Independent Review Panel for Defence Acquisition'
     },
     {
-        label: 'iSAMS',
+        label: 'ISAMS',
         value: 'Identity Services and Access Management Solution'
     },
     {
