@@ -1584,6 +1584,10 @@ var data = [
         value: 'Translation Bureau'
     },
     {
+        label: 'TBIPS',
+        value: 'Task-Based Informatics Professional Service'
+    },
+    {
         label: 'TBS Audit Committee',
         explanation: "The TBS Audit Committee advises on matters related to governance, risk and controls, and it serves as a strategic advisory board for key TBS initiatives."
     },
@@ -1633,6 +1637,10 @@ var data = [
     {
         label: 'TSB',
         value: 'Transportation Safety Board of Canada'
+    },
+    {
+        label: 'TSPS',
+        value: 'Task and solutions professional services'
     },
     {
         label: 'Two-Spirit',
