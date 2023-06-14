@@ -324,6 +324,11 @@ var data = [
         value: 'Canada Infrastructure Bank'
     },
     {
+        label: 'CIAM',
+        value: 'Customer Idendity and Access Management',
+        explanation: "It is a type of identity and access management (IAM) system that focuses on managing and securing customer identities and their access to digital resources and services. CIAM solutions typically provide features such as customer registration, authentication, authorization, profile management, and consent management, while also ensuring compliance with data privacy regulations. CIAM is used by businesses and organizations to enhance customer experience, improve security, and streamline customer identity management processes."
+    },
+    {
         label: 'CICS',
         value: 'Canadian Intergovernmental Conference Secretariat'
     },
