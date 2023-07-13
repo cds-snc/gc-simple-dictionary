@@ -919,10 +919,6 @@ var data = [
         value: 'Independent Review Panel for Defence Acquisition'
     },
     {
-        label: 'ISAMS',
-        value: 'Identity Services and Access Management Solution'
-    },
-    {
         label: 'ISC',
         value: 'Indigenous Services Canada'
     },
@@ -953,6 +949,11 @@ var data = [
     {
         label: 'JUS',
         value: 'Justice Canada (Department of)'
+    },
+    {
+        label: 'JV',
+        value: 'Journal Voucher',
+        explanation: 'A way to process a payment within the organization; within the sector, department, or between departments'
     },
     {
         label: 'k8s',
