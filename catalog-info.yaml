@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gc-simple-dictionary
+  description: >-
+    A simple web page with an autocomplete feature to lookup all the acronyms
+    you can stumble on at the Government of Canada
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cds-snc
