@@ -131,6 +131,10 @@ var data = [
         explanation: "A person who is sexually and/or romantically attracted to two or more genders."
     },
     {
+        label: 'BOC',
+        value: 'Business Needs and Outcome Collaboration'
+    },
+    {
         label: 'BOEW',
         value: 'Boîte à outils de l’expérience Web',
         explanation: "Une bibliothèque de code primée pour construire des sites Web accessibles, faciles d'emploi, interopérables, optimisés pour les appareils mobiles et multilingues",
@@ -320,6 +324,11 @@ var data = [
         value: 'Canada Infrastructure Bank'
     },
     {
+        label: 'CIAM',
+        value: 'Customer Idendity and Access Management',
+        explanation: "It is a type of identity and access management (IAM) system that focuses on managing and securing customer identities and their access to digital resources and services. CIAM solutions typically provide features such as customer registration, authentication, authorization, profile management, and consent management, while also ensuring compliance with data privacy regulations. CIAM is used by businesses and organizations to enhance customer experience, improve security, and streamline customer identity management processes."
+    },
+    {
         label: 'CICS',
         value: 'Canadian Intergovernmental Conference Secretariat'
     },
@@ -498,13 +507,23 @@ var data = [
         
     },
     {
+        label: 'CSPV',
+        value: 'Cyber Security Procurement Vehicle',
+        explanation: "The Cyber Security Procurement Vehicle (CSPV) is the GC's agile procurement framework for acquiring the cyber security capabilities and technologies required to protect the Government of Canada's IT infrastructure.",
+        link:"https://gc-cloud-services.canada.ca/s/cloud-services-overview?language=en_US",
+        label_fr:"MAMC",
+        value_fr:"Mécanisme d’approvisionnement en matière de cybersécurité",
+        explanation_fr:"Le mécanisme d’approvisionnement en matière de cybersécurité du GC (MAMC) est le cadre d’approvisionnement agile pour acquérir les capacités et les technologies de cybersécurité nécessaires à la protection de l’infrastructure de TI du gouvernement du Canada. Le MAMC permet d’avoir accès à des technologies déjà acquises, et ce, rapidement, ou à de nouvelles possibilités d’approvisionnement pour répondre à vos besoins uniques en matière de cybersécurité.",
+        link_fr:"https://gc-cloud-services.canada.ca/s/cloud-services-overview?language=fr"
+    },
+    {
         label: 'CSS',
         value: 'Corporate Services Sector',
         explanation: "The Corporate Services Sector assists the Secretary of the Treasury Board in the internal administration of the Secretariat. The Corporate Services Sector provides support in the areas of financial management, security, information management and technology, facilities and materiel management. The Corporate Services Sector is composed of three directorates: Financial Management; Information Management and Technology; and Administration and Security. The three directorates provide internal corporate services to the Treasury Board Secretariat, and certain shared services to the Department of Finance, the Canada School of Public Service and Privy Council Office.",
         link:"https://www.tbs-sct.canada.ca/tbs-sct/organization-organisation/csb-dsm-eng.asp",
         label_fr:"SSM",
         value_fr:"Secteur des services ministériels",
-        explanation_fr:"e Secteur des services ministériels appuie la secrétaire du Conseil du Trésor dans le cadre de l'administration interne du Secrétariat. Le Secteur des services ministériels fournit du soutien au ministère en ce qui touche la gestion financière, la sécurité, la gestion de l'information et la technologie de l'information, la gestion des installations et du matériel. Le secteur comprend trois directions : gestion financière, gestion de l'information et de la technologie, administration. Ces directions fournissent des services ministériels internes au Secrétariat du Conseil du Trésor ainsi que certains services communs au ministère des Finances Canada, à l\'École de la fonction publique du Canada et au Bureau du Conseil privé.",
+        explanation_fr:"Secteur des services ministériels appuie la secrétaire du Conseil du Trésor dans le cadre de l'administration interne du Secrétariat. Le Secteur des services ministériels fournit du soutien au ministère en ce qui touche la gestion financière, la sécurité, la gestion de l'information et la technologie de l'information, la gestion des installations et du matériel. Le secteur comprend trois directions : gestion financière, gestion de l'information et de la technologie, administration. Ces directions fournissent des services ministériels internes au Secrétariat du Conseil du Trésor ainsi que certains services communs au ministère des Finances Canada, à l\'École de la fonction publique du Canada et au Bureau du Conseil privé.",
         link_fr:"https://www.tbs-sct.canada.ca/tbs-sct/organization-organisation/csb-dsm-fra.asp"
     },
     {
@@ -840,6 +859,12 @@ var data = [
         explanation: "See ATO"
     },
     {
+        label: 'ICCS',
+        value: 'Institute for Citizen-Centred Service',
+        explanation: "ICCS becomes a centre of excellence for knowledge, collaboration and innovation in public sector service delivery.",
+        link: "https://citizenfirst.ca/"
+    },
+    {
         label: 'IDRC',
         value: 'International Development Research Centre'
     },
@@ -928,6 +953,11 @@ var data = [
     {
         label: 'JUS',
         value: 'Justice Canada (Department of)'
+    },
+    {
+        label: 'JV',
+        value: 'Journal Voucher',
+        explanation: 'A way to process a payment within the organization; within the sector, department, or between departments'
     },
     {
         label: 'k8s',
@@ -1035,6 +1065,10 @@ var data = [
     {
         label: 'NPA',
         value: 'Northern Pipeline Agency Canada'
+    },
+    {
+        label: 'NPE',
+        value: 'Non Person Entity'
     },
     {
         label: 'NRC',
@@ -1161,6 +1195,16 @@ var data = [
     {
         label: 'OTO',
         value: 'Taxpayers Ombudsperson (Office of the)'
+    },
+    {
+        label: 'P2P',
+        value: 'Procure-to-Pay',
+        explanation: "System called Procure-to-Pay (P2P) to electronically manage procurement to payment processes"
+    },
+    {
+        label: 'PAM',
+        value: 'Privileged Access Management',
+        explanation: "Privileged access management (PAM) is an identity security solution that helps protect organizations against cyberthreats by monitoring, detecting, and preventing unauthorized privileged access to critical resources."
     },
     {
         label: 'Pansexual',
@@ -1404,6 +1448,12 @@ var data = [
         link: "https://www.canada.ca/en/shared-services/corporate/publications/2019-20-departmental-plan/supplementary-tables/status-report-secure-cloud-enablement-defence.html"
     },
     {
+        label: 'SCI',
+        value: 'Supply Chain Integrity',
+        explanation: "The purpose of the Supply Chain Integrity (SCI) process is to ensure that no untrusted equipment, software or services are procured and are used in the delivery and support of GC services.",
+        link: "https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070"
+    },
+    {
         label: 'SCIF',
         value: 'Sensitive Compartmented Information Facility',
         explanation: "pronounced \"skiff\", s an enclosed area within a building that is used to process Sensitive Compartmented Information (SCI) types of classified information."
@@ -1550,6 +1600,10 @@ var data = [
         value: 'Translation Bureau'
     },
     {
+        label: 'TBIPS',
+        value: 'Task-Based Informatics Professional Service'
+    },
+    {
         label: 'TBS Audit Committee',
         explanation: "The TBS Audit Committee advises on matters related to governance, risk and controls, and it serves as a strategic advisory board for key TBS initiatives."
     },
@@ -1599,6 +1653,10 @@ var data = [
     {
         label: 'TSB',
         value: 'Transportation Safety Board of Canada'
+    },
+    {
+        label: 'TSPS',
+        value: 'Task and solutions professional services'
     },
     {
         label: 'Two-Spirit',
